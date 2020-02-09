@@ -1,0 +1,66 @@
+.IndexHero {
+    //background-color: #80a3db;
+    background-image: url('/static/images/hero/landing.png');
+
+    //text
+    color: white;
+
+    //display
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer {
+    background: rgba(0, 0, 0, 0.42);
+    margin: auto auto;
+    padding: 15px;
+
+    width: 830px;
+    height: 280px;
+
+    // display flex causing issues with react-text-loop
+    //flex
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+
+    // //text
+    // text-align: center;    
+}
+
+// appear animation
+.appear {
+    animation: fadein 0.65s ease-in forwards;
+}
+@keyframes fadein {
+    0%{
+		opacity: 0;
+	}
+    100%{
+		opacity: 1;
+	}
+}
+
+.Welcome {
+    font-family: 'DancingScript';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    margin-bottom: 30px;
+}
+
+.Name {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.infoContainer {
+    width: 100%;
+    border: solid green 2px;
+}
+
+.Job {
+    font-weight: 300;
+    font-size: 48px;
+}

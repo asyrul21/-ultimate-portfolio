@@ -1,5 +1,6 @@
 import react from 'react'
 import Link from 'next/Link'
+import cx from 'classnames'
 
 // import specific style here
 import headerStyles from './styles/header.module.scss';
@@ -11,13 +12,27 @@ class Header extends react.Component {
         // React.Fragments can be used interchangeably with divs
         // divs are not always necessary
         return (
-            <react.Fragment>
-                <Link href="/"><a>Index Page</a></Link>
-                <Link href="/about"><a className={headerStyles.navLink}>About Page</a></Link>
-                <Link href="/projects"><a className={headerStyles.navLink}>Projects Page</a></Link>
-                <Link href="/fitness"><a className={headerStyles.navLink}>Fitness Page</a></Link>
-                <Link href="/blogs"><a className={headerStyles.navLink}>Blogs Page</a></Link>
-            </react.Fragment>
+            <div className={cx(headerStyles.navBar, headerStyles.showNav)}>
+                <div className={headerStyles.navLinks}>
+                    <div className={headerStyles.Logo}>
+                        <Link href="/">
+                            <a className={headerStyles.innerLogo}></a>
+                        </Link>
+                    </div>
+                    <Link href="/about"><a>About</a></Link>
+                    <Link href="/projects"><a>Projects</a></Link>
+                    <Link href="/fitness"><a>Fitness</a></Link>
+                    <Link href="/blogs"><a>Blogs</a></Link>
+                    <Link href="/about"><a>About</a></Link>
+                    <Link href="/projects"><a>Projects</a></Link>
+                    <Link href="/fitness"><a>Fitness</a></Link>
+                    <Link href="/blogs"><a>Blogs</a></Link>
+                </div>
+
+                <div className={headerStyles.login}>
+                    <Link href="/"><a>Log In</a></Link>
+                </div>
+            </div>
         )
     }
 }

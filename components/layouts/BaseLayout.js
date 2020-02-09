@@ -1,5 +1,6 @@
 import react from 'react'
 import Header from '../shared/Header'
+import Footer from '../shared/Footer'
 
 
 
@@ -11,6 +12,7 @@ const BaseLayout = (props) => {
         <react.Fragment>
             <Header />
             {props.children}
+            <Footer />
         </react.Fragment>
     )
 }

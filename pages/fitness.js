@@ -4,7 +4,7 @@ import BaseLayout from '../components/layouts/BaseLayout';
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module
-import fitnessStyles from './fitness.module.scss';
+// import fitnessStyles from './fitness.module.scss';
 
 class Fitness extends react.Component {
     render() {

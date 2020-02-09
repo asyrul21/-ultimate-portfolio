@@ -1,0 +1,39 @@
+$divheight : 100px;
+
+.title {
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+    // height: $divheight;
+
+}
+
+.quote {
+    width: 100%;
+    font-family: 'DancingScript';
+    font-weight: 'regular';
+    font-size: 18px;
+
+    // height: $divheight;
+}
+
+.author {
+    width: 100%;
+    font-family: 'DancingScript';
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: right;
+
+    // height: $divheight ;
+}
+
+.text {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+
+    // height: $divheight ;
+}

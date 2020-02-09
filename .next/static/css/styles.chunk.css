@@ -1,16 +1,278 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-Italic.ttf");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-MediumItalic.ttf");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-Bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/static/fonts/Montserrat-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url("/static/fonts/DancingScript-Regular.ttf");
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url("/static/fonts/DancingScript-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url("/static/fonts/DancingScript-Bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+
 * {
   margin: 0 auto;
-  max-width: 750px;
-  padding: 1rem; }
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
 
-p {
-  color: Brown; }
+html, body {
+  font-family: 'Montserrat'; }
 
-._3XoHhgPRNsWru431BxY5TB {
-  color: blue; }
+.hero {
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+  background-size: cover;
+  z-index: -1; }
 
-._1KX4mEramrKDoU8QGABQ3K {
-  color: orange; }
+.contentContainer {
+  width: 800px;
+  margin: 90px auto;
+  height: auto; }
+
+._3Ynq13K6dJwDv9xNY-P6Vq {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: white; }
+
+._16xJ6Gr4E3Ez3WL9Q23t7O {
+  border-right: 2px white solid;
+  height: 95%;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.YLc3V1jOJQDlT1pigyU-m {
+  background: rgba(107, 92, 92, 0.54);
+  border: 2px solid white;
+  height: 80%;
+  width: 160px; }
+
+.kPFk5WKPQbwwEkuo5RDYZ {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-basis: 80%;
+  align-items: center; }
+
+.kPFk5WKPQbwwEkuo5RDYZ a, ._3MvDr5m91Pmmjf-i_ytVaJ a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 14px; }
+
+a, div._16xJ6Gr4E3Ez3WL9Q23t7O {
+  opacity: 0; }
+
+._3Z7Nj8sD8W-qNi1c5vPZY4 a, ._3Z7Nj8sD8W-qNi1c5vPZY4 div {
+  animation: HIFhD7XAyO9o5tAYfgII5 0.5s ease-in forwards;
+  animation-delay: 0.6s; }
+
+@keyframes HIFhD7XAyO9o5tAYfgII5 {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+._1G6KdEe68Bq9lOdDzSEFsk {
+  height: 300px;
+  width: 100%;
+  background: #292929;
+  z-index: -1;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+._11GuFnaAEG0J71ENb2G7wH {
+  width: 20%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+._2FSPpFMz8bRszgpn68DS47 {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(196, 196, 196, 0.5);
+  opacity: 0.85; }
+
+._2FSPpFMz8bRszgpn68DS47:hover {
+  opacity: 1; }
+
+._2oCrJqiDVaRAIeO_g0MU-Q, .KXfwJkzv1v7EwxOqJMxBa, ._3C0rl4yCn4h8fZmQIsX9AB,
+._2iJvO9iYwvox-X0up_naok, .kksmClWKdbMAbJ65N3_QK {
+  width: 90%;
+  height: 90%;
+  z-index: 1;
+  opacity: inherit; }
+
+._2oCrJqiDVaRAIeO_g0MU-Q {
+  content: url("/static/images/icons/instagram.png"); }
+
+.KXfwJkzv1v7EwxOqJMxBa {
+  content: url("/static/images/icons/facebook.png"); }
+
+._3C0rl4yCn4h8fZmQIsX9AB {
+  content: url("/static/images/icons/email.png"); }
+
+._2iJvO9iYwvox-X0up_naok {
+  content: url("/static/images/icons/linkedin.png"); }
+
+.kksmClWKdbMAbJ65N3_QK {
+  content: url("/static/images/icons/youtube.png"); }
+
+.OKPUsf8eZqRy36GpjpEzJ {
+  font-size: 18px;
+  color: #FFFFFF; }
+
+._4S1LAbqgOvMfN4-fBDsDE {
+  color: #FF0000; }
+
+._3olEcnNI1gv9LjKOf4hX32 {
+  background-image: url("/static/images/hero/landing.png");
+  color: white;
+  display: flex;
+  justify-content: center; }
+
+._3JPe-yxVweEx3SNyqLwX0O {
+  background: rgba(0, 0, 0, 0.42);
+  margin: auto auto;
+  padding: 15px;
+  width: 830px;
+  height: 280px; }
+
+._2x4SE4dlJM8Nds1ITWEp4I {
+  animation: _1lOXMWzUO7b-20ejqb4h4E 0.65s ease-in forwards; }
+
+@keyframes _1lOXMWzUO7b-20ejqb4h4E {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+._38tICKC0ZmNbmjCMv1Gfn {
+  font-family: 'DancingScript';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  margin-bottom: 30px; }
+
+._2vXhFBf99N4pJzWCrAksTC {
+  font-weight: 300;
+  font-size: 36px; }
+
+.WvWeWYLcXkomb9oOI_Dld {
+  width: 100%;
+  border: solid green 2px; }
+
+._2FRtfTtreCX7tlUSJfOsW0 {
+  font-weight: 300;
+  font-size: 48px; }
+
+._1qJqvjFdArUczCb9Hw-xG1 {
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px; }
+
+._3cUM3i_ShnS59iohtQew57 {
+  width: 100%;
+  font-family: 'DancingScript';
+  font-weight: 'regular';
+  font-size: 18px; }
+
+.lV8OG2KRXm5Csh6a3S3pS {
+  width: 100%;
+  font-family: 'DancingScript';
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right; }
+
+.nTfcgQMaTNiKLER9c4L0z {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px; }
+
+._2IPjBvKLklHNGOw9B57hZi {
+  background-image: url("/static/images/hero/about_top.png");
+  height: 600px; }
+
+._6CFWrb-v32RKCgSbNHdM4, ._1vtSvnJFaK8-Hwf7E6SbWv, ._2guBLTSEwhldHqNw03PBfz {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+
+._6CFWrb-v32RKCgSbNHdM4 {
+  background-image: url("/static/images/hero/about_skill.png"); }
+
+._1vtSvnJFaK8-Hwf7E6SbWv {
+  background-image: url("/static/images/hero/about_work.png"); }
+
+._2guBLTSEwhldHqNw03PBfz {
+  background-image: url("/static/images/hero/about_education.png"); }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

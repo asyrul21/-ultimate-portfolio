@@ -1,8 +1,8 @@
 import React from 'react'
 import App from 'next/app'
 
-//import styles
-import '../styles/main.scss'
+//import global style
+import '../styles/main.global.scss'
 
 class MyApp extends App {
     static async getInitialProps(appContext) {
@@ -17,7 +17,5 @@ class MyApp extends App {
         )
     }
 }
-
-
 
 export default MyApp

@@ -1,8 +1,16 @@
 import react from 'react';
 import Link from 'next/Link';
 import BaseLayout from '../components/layouts/BaseLayout'
+import cx from 'classnames'
+import TextLoop from "react-text-loop";
+
+//global styles can be found at ../styles/main.scss
+//import specific styling module
+import indexStyles from './styles/index.module.scss';
 
 // this is the landing page
+
+const phrases = ['Full-Stack Web Development', 'Software Engineering', 'Machine Learning', 'Big Data']
 
 class Index extends react.Component {
 
@@ -11,13 +19,22 @@ class Index extends react.Component {
         super();
 
         // set state
-        this.state = {
-            title: 'I am index page'
-        }
+        // this.state = {
+        //     visible: false
+        // }
 
         //binding local methods
-        this.updateTitle = this.updateTitle.bind(this);
+        // this.updateTitle = this.updateTitle.bind(this);
+        // this.onShow = this.onShow.bind(this)
     }
+
+    // onShow() {
+    //     this.setState({
+    //         visible: true
+    //     })
+    // }
+
+
 
     // react lifecycle methods
     // 1. componentDidMount()
@@ -26,21 +43,38 @@ class Index extends react.Component {
     // 4. getInitialProps - Next specialty
 
     // local method
-    updateTitle() {
-        this.setState({
-            title: 'I am updated Title'
-        })
-    }
-
+    // updateTitle() {
+    //     this.setState({
+    //         title: 'I am updated Title'
+    //     })
+    // }
 
     render() {
         return (
             < BaseLayout >
-                <p>Hello Next.js</p>
-                <p>This will be landing page</p>
-
-                <h2>{this.state.title}</h2>
-                <button onClick={this.updateTitle}> Change Title </button>
+                <div className={cx('hero', indexStyles.IndexHero)}>
+                    <div className={cx(indexStyles.textContainer, indexStyles.appear)}>
+                        <div>
+                            <h4 className={indexStyles.Welcome}>Welcome to My World</h4>
+                        </div>
+                        <div>
+                            <h4 className={indexStyles.Name}>Asyrul Hafetzy Ahmad</h4>
+                            <h5 className={indexStyles.Job}>
+                                <TextLoop
+                                    delay={100}
+                                    interval={1500}
+                                    mask={true}
+                                >
+                                    <span>Full-stack Web Development</span>
+                                    <span>Software Engineering</span>
+                                    <span>Big Data</span>
+                                    <span>Artificial Intelligence</span>
+                                </TextLoop>
+                                {/* Full-stack Web Developer */}
+                            </h5>
+                        </div>
+                    </div>
+                </div>
             </ BaseLayout >
         )
     }

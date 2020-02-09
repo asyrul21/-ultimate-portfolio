@@ -1,0 +1,31 @@
+.aboutHero {
+    //background-color: #80a3db;
+    background-image: url('/static/images/hero/about_top.png');
+    height: 600px;
+}
+
+.skillHero, .workHero, .educationHero  {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 250px;
+}
+
+.skillHero {
+    //background-color: #80a3db;
+    background-image: url('/static/images/hero/about_skill.png');
+    
+}
+
+.workHero {
+    //background-color: #80a3db;
+    background-image: url('/static/images/hero/about_work.png');
+}
+
+.educationHero {
+    //background-color: #80a3db;
+    background-image: url('/static/images/hero/about_education.png');
+}
