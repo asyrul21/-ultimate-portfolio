@@ -12568,31 +12568,8 @@ function (_react$Component) {
   function Index() {
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Index);
 
-    // calling super constructor
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).call(this)); // set state
-    // this.state = {
-    //     visible: false
-    // }
-    //binding local methods
-    // this.updateTitle = this.updateTitle.bind(this);
-    // this.onShow = this.onShow.bind(this)
-  } // onShow() {
-  //     this.setState({
-  //         visible: true
-  //     })
-  // }
-  // react lifecycle methods
-  // 1. componentDidMount()
-  // 2. componentDidUpdate()
-  // 3. componentWillUnmount()
-  // 4. getInitialProps - Next specialty
-  // local method
-  // updateTitle() {
-  //     this.setState({
-  //         title: 'I am updated Title'
-  //     })
-  // }
-
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).apply(this, arguments));
+  }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
@@ -12618,11 +12595,37 @@ function (_react$Component) {
   return Index;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Index); //constructor() {
+// calling super constructor
+//super();
+// set state
+// this.state = {
+//     visible: false
+// }
+//binding local methods
+// this.updateTitle = this.updateTitle.bind(this);
+// this.onShow = this.onShow.bind(this)
+//}
+// onShow() {
+//     this.setState({
+//         visible: true
+//     })
+// }
+// react lifecycle methods
+// 1. componentDidMount()
+// 2. componentDidUpdate()
+// 3. componentWillUnmount()
+// 4. getInitialProps - Next specialty
+// local method
+// updateTitle() {
+//     this.setState({
+//         title: 'I am updated Title'
+//     })
+// }
 
 /***/ }),
 
-/***/ 2:
+/***/ 14:
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************************************************************************/
@@ -12645,5 +12648,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[14,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

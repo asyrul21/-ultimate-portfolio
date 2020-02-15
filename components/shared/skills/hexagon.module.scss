@@ -1,0 +1,76 @@
+$hexagonColor: #C4C4C4;
+
+.hexagonContainer {
+    // border: black solid 1px;
+    width: 130px;
+    height: 130px;
+
+    position: relative;
+    // animation: rotation 20s infinite linear;
+}
+
+.hexagonContainer:hover{
+    transform: rotate(0deg);
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+.ml {
+    content : url('/static/images/specialties/ml.png');
+}
+
+img {
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 60px;
+    height: 60px;
+}
+
+.hexagon {
+    width: 85%;
+    height: 48.5%;
+    margin: auto;
+
+    //middle
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: $hexagonColor;
+
+    // border: black solid 2px;
+}
+
+.hexagon::before, .hexagon::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    // border: 2px black solid;
+    position: absolute;
+
+    background: $hexagonColor;
+}
+
+.hexagon::before {
+    transform: rotate(60deg)
+}
+
+.hexagon::after {
+    transform: rotate(-60deg)
+}

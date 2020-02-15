@@ -1,0 +1,55 @@
+$skillBarHeight: 31px;
+
+.skillBarContainer {
+    // border: blue 2px solid;
+    width: 100%;
+    height: $skillBarHeight;
+    background: #C4C4C4;
+
+    display: flex;
+
+    //font
+    font-weight: 500;
+    font-size: 18px;
+    line-height: $skillBarHeight;
+
+    padding-right: 10px;
+
+    color: #000000;
+
+    span {
+        opacity: 0;
+    }
+}
+
+.skill {
+    height: 100%;
+    width: 130px;
+    background: #585858;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: $skillBarHeight;
+    span{
+        opacity: 1;
+    }
+}
+
+.statsContainer {
+    width: 100%;
+    // border:red 2px solid;
+
+    margin: 0;
+    height: 100%;
+}
+
+.stats {
+    width: 1%;
+    margin: 0;
+    height: 100%;
+    background: #2E7BC1;
+}

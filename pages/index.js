@@ -14,41 +14,6 @@ const phrases = ['Full-Stack Web Development', 'Software Engineering', 'Machine 
 
 class Index extends react.Component {
 
-    constructor() {
-        // calling super constructor
-        super();
-
-        // set state
-        // this.state = {
-        //     visible: false
-        // }
-
-        //binding local methods
-        // this.updateTitle = this.updateTitle.bind(this);
-        // this.onShow = this.onShow.bind(this)
-    }
-
-    // onShow() {
-    //     this.setState({
-    //         visible: true
-    //     })
-    // }
-
-
-
-    // react lifecycle methods
-    // 1. componentDidMount()
-    // 2. componentDidUpdate()
-    // 3. componentWillUnmount()
-    // 4. getInitialProps - Next specialty
-
-    // local method
-    // updateTitle() {
-    //     this.setState({
-    //         title: 'I am updated Title'
-    //     })
-    // }
-
     render() {
         return (
             < BaseLayout >
@@ -81,3 +46,41 @@ class Index extends react.Component {
 }
 
 export default Index;
+
+    //constructor() {
+    // calling super constructor
+    //super();
+
+    // set state
+    // this.state = {
+    //     visible: false
+    // }
+
+    //binding local methods
+    // this.updateTitle = this.updateTitle.bind(this);
+    // this.onShow = this.onShow.bind(this)
+    //}
+
+
+
+
+    // onShow() {
+    //     this.setState({
+    //         visible: true
+    //     })
+    // }
+
+
+
+    // react lifecycle methods
+    // 1. componentDidMount()
+    // 2. componentDidUpdate()
+    // 3. componentWillUnmount()
+    // 4. getInitialProps - Next specialty
+
+    // local method
+    // updateTitle() {
+    //     this.setState({
+    //         title: 'I am updated Title'
+    //     })
+    // }

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -329,33 +329,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const phrases = ['Full-Stack Web Development', 'Software Engineering', 'Machine Learning', 'Big Data'];
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor() {
-    // calling super constructor
-    super(); // set state
-    // this.state = {
-    //     visible: false
-    // }
-    //binding local methods
-    // this.updateTitle = this.updateTitle.bind(this);
-    // this.onShow = this.onShow.bind(this)
-  } // onShow() {
-  //     this.setState({
-  //         visible: true
-  //     })
-  // }
-  // react lifecycle methods
-  // 1. componentDidMount()
-  // 2. componentDidUpdate()
-  // 3. componentWillUnmount()
-  // 4. getInitialProps - Next specialty
-  // local method
-  // updateTitle() {
-  //     this.setState({
-  //         title: 'I am updated Title'
-  //     })
-  // }
-
-
   render() {
     return __jsx(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_2__["default"], null, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()('hero', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.IndexHero)
@@ -376,7 +349,33 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Index); //constructor() {
+// calling super constructor
+//super();
+// set state
+// this.state = {
+//     visible: false
+// }
+//binding local methods
+// this.updateTitle = this.updateTitle.bind(this);
+// this.onShow = this.onShow.bind(this)
+//}
+// onShow() {
+//     this.setState({
+//         visible: true
+//     })
+// }
+// react lifecycle methods
+// 1. componentDidMount()
+// 2. componentDidUpdate()
+// 3. componentWillUnmount()
+// 4. getInitialProps - Next specialty
+// local method
+// updateTitle() {
+//     this.setState({
+//         title: 'I am updated Title'
+//     })
+// }
 
 /***/ }),
 
@@ -400,7 +399,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

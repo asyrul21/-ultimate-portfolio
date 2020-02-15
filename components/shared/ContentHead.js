@@ -6,18 +6,18 @@ import headStyles from './styles/contentHead.module.scss';
 
 const ContentHead = (props) => {
     return (
-        <div className="contentContainer">
+        <div className={headStyles.headContainer}>
             <div className={headStyles.title}>
-                <h5>{props.content.title}</h5>
+                <h5>{props.data.title}</h5>
             </div>
             <div className={headStyles.quote}>
-                {props.content.quote}
+                {props.data.quote}
             </div>
             <div className={headStyles.author}>
-                {props.content.author}
+                {props.data.author}
             </div>
             <div className={headStyles.text}>
-                {props.content.text}
+                {props.data.text}
             </div>
         </div>
     )

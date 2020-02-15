@@ -1,0 +1,74 @@
+.specialtiesContainer {
+    // border: black solid 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 40px auto;
+}
+
+.ml {
+    img{
+        content : url('/static/images/specialties/ml.png');
+    }
+    // animation: rotation 30s infinite linear;
+}
+
+.robot {
+    img{
+        content : url('/static/images/specialties/robot.png');
+    }
+    // animation: rotation-anti 40s infinite linear;
+}
+
+.nlp 
+{
+    img{
+        content : url('/static/images/specialties/nlp.png');
+    }
+    // animation: rotation 35s infinite linear;
+}
+
+.se 
+{
+    img{
+        content : url('/static/images/specialties/se.png');
+    }
+    // animation: rotation-anti 30s infinite linear;
+}
+
+.ml:hover, .bigdata:hover,
+.nlp:hover, .se:hover 
+{   
+    // animation: rotate-back 10s ease-in linear;
+    animation-play-state: paused;
+    // div{
+    //     box-shadow: 0 0 50px rgba(33,33,33,.2); 
+    // }
+    
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation-anti {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+}
+
+@keyframes rotate-back {
+    to {
+      transform: rotate(0deg);
+    }
+}

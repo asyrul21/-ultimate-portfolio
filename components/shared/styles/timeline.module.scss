@@ -1,0 +1,61 @@
+.timelineContainer {
+    margin-top: 30px;
+    // border: red solid 2px;
+}
+
+.timelineItem {
+    border-left: black 1px solid;
+    padding-left: 50px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 50px;
+
+    width: 90%;
+    min-height: 100px;
+
+    position: relative;
+
+    // div {
+    //     width: 100%;
+    // }
+}
+
+.title, .time, .text {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.time, .grade {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+// ball
+.ball {
+    width: 20px;
+    height: 20px;
+    border: black solid 2px;
+    background: #C4C4C4;
+    border-radius: 100%;
+
+    position: absolute;
+    left: -10px;
+    top: 0;
+}
+
+.separator {
+    height: 1px;
+    width: 70%;
+    border-bottom: solid grey 1px;
+    padding-top: 30px;
+    margin-left: 0;
+}

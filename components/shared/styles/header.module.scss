@@ -53,6 +53,7 @@
 
     //font
     font-size: 14px;
+    font-weight: 500;
 }
 
 a, div.Logo {
@@ -62,7 +63,7 @@ a, div.Logo {
 //slidedown animation
 .showNav a, .showNav div {
     animation: slideDown 0.5s ease-in forwards;
-    animation-delay: 0.6s;
+    animation-delay: 0.2s;
 }
 @keyframes slideDown {
     0%{
