@@ -3,16 +3,6 @@ import react from 'react'
 import tabsStyles from './styles/tabs.module.scss'
 
 class Tabs extends react.Component {
-    constructor() {
-        super();
-
-        // this.state = {
-        //     AcademicActive: true,
-        //     ProfessionalActive: false,
-        //     PersonalActive: false
-        // }
-    }
-
     render() {
         return (
             <div className={tabsStyles.tabContainer}>

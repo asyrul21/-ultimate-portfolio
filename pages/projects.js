@@ -10,6 +10,7 @@ import ContentContainer from '../components/layouts/ContentContainer'
 import ContentHead from '../components/shared/ContentHead'
 import Tabs from '../components/shared/Tabs'
 import ProjectsTabs from '../components/shared/ProjectsTabs'
+import Project from '../components/shared/projects/Project'
 
 //import data
 import projectsData from '../public/static/data/projects'
@@ -28,7 +29,7 @@ class Projects extends React.Component {
     constructor() {
         super()
         this.state = {
-            activeTab: 'Academic',
+            activeTab: '',
             activeProject: ''
         }
 
@@ -66,42 +67,27 @@ class Projects extends React.Component {
                         </Fade>
 
                         {this.state.activeTab === 'Academic' &&
-                            // <Fade right=
-                            //     {
-                            //         this.prevActiveTab === 'Professional' ? true :
-                            //             this.prevActiveTab === 'Personal' ? true : false
-                            //     }
-                            //     duration={500}>
-                            <Fade duration={500}>
 
+                            <Fade duration={500}>
                                 <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Academic} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Professional' &&
-                            // <Fade right=
-                            //     {
-                            //         this.prevActiveTab === 'Personal' ? true : false
-                            //     }
-                            //     left=
-                            //     {
-                            //         this.prevActiveTab === 'Academic' ? true : false
-                            //     }
-                            //     duration={500}>
                             <Fade duration={500}>
                                 <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Professional} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Personal' &&
-                            // <Fade left=
-                            //     {
-                            //         this.prevActiveTab === 'Academic' ? true :
-                            //             this.prevActiveTab === 'Professional' ? true : false
-                            //     }
-                            //     duration={500}>
                             <Fade duration={500}>
                                 <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Personal} />
+                            </Fade>
+                        }
+
+                        {this.state.activeProject !== '' &&
+                            <Fade duration={500}>
+                                <Project id={this.state.activeProject} />
                             </Fade>
                         }
                     </ContentContainer>
@@ -112,3 +98,20 @@ class Projects extends React.Component {
 }
 
 export default Projects;
+
+// <Fade right=
+//     {
+//         this.prevActiveTab === 'Professional' ? true :
+//             this.prevActiveTab === 'Personal' ? true : false
+//     }
+//     duration={500}>
+
+// <Fade right=
+//     {
+//         this.prevActiveTab === 'Personal' ? true : false
+//     }
+//     left=
+//     {
+//         this.prevActiveTab === 'Academic' ? true : false
+//     }
+//     duration={500}>

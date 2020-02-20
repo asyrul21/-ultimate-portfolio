@@ -480,14 +480,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Tabs extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor() {
-    super(); // this.state = {
-    //     AcademicActive: true,
-    //     ProfessionalActive: false,
-    //     PersonalActive: false
-    // }
-  }
-
   render() {
     return __jsx("div", {
       className: _styles_tabs_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tabContainer
@@ -516,6 +508,135 @@ class Tabs extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 //     })
 //     this.setState(newState);
 // }
+
+/***/ }),
+
+/***/ "./components/shared/projects/ProProjects.js":
+/*!***************************************************!*\
+  !*** ./components/shared/projects/ProProjects.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./proprojects.module.scss */ "./components/shared/projects/proprojects.module.scss");
+/* harmony import */ var _proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+ //import style
+
+
+
+const ProProjects = props => {
+  // console.log(props.data[0].title)
+  const project = props.data;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.projectHeading || "")
+  }, __jsx("h5", {
+    className: "jsx-4133983565"
+  }, project.title), __jsx("span", {
+    className: "jsx-4133983565"
+  }, project.time)), __jsx("div", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.photosContainer || "")
+  }, project.images.map((image, idx) => {
+    return __jsx("div", {
+      key: idx,
+      style: {
+        backgroundImage: 'url(' + image + ')',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover'
+      },
+      className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image || "")
+    });
+  })), __jsx("p", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.text || "")
+  }, project.text), __jsx("div", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.attributes || "")
+  }, __jsx("span", {
+    className: "jsx-4133983565"
+  }, "Role:"), __jsx("p", {
+    className: "jsx-4133983565"
+  }, project.role)), __jsx("div", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.attributes || "")
+  }, __jsx("span", {
+    className: "jsx-4133983565"
+  }, "Main contribution:"), __jsx("p", {
+    className: "jsx-4133983565"
+  }, project.contribution)), __jsx("div", {
+    className: "jsx-4133983565" + " " + (_proprojects_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.attributes || "")
+  }, __jsx("span", {
+    className: "jsx-4133983565"
+  }, "Technology:"), __jsx("p", {
+    className: "jsx-4133983565"
+  }, "Technologies go here")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "4133983565"
+  }, "img.jsx-4133983565{width:100%;height:100%;object-fit:cover;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvY29tcG9uZW50cy9zaGFyZWQvcHJvamVjdHMvUHJvUHJvamVjdHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkN3QixBQUdnQyxXQUNDLFlBQ0ssaUJBQ3JCIiwiZmlsZSI6Ii9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvY29tcG9uZW50cy9zaGFyZWQvcHJvamVjdHMvUHJvUHJvamVjdHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgcmVhY3QgZnJvbSAncmVhY3QnXG5cbi8vaW1wb3J0IHN0eWxlXG5pbXBvcnQgcHJvcHJvamVjdFN0eWxlcyBmcm9tICcuL3Byb3Byb2plY3RzLm1vZHVsZS5zY3NzJ1xuXG5jb25zdCBQcm9Qcm9qZWN0cyA9IChwcm9wcykgPT4ge1xuICAgIC8vIGNvbnNvbGUubG9nKHByb3BzLmRhdGFbMF0udGl0bGUpXG4gICAgY29uc3QgcHJvamVjdCA9IHByb3BzLmRhdGFcbiAgICByZXR1cm4gKFxuICAgICAgICA8cmVhY3QuRnJhZ21lbnQ+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17cHJvcHJvamVjdFN0eWxlcy5wcm9qZWN0SGVhZGluZ30+XG4gICAgICAgICAgICAgICAgPGg1Pntwcm9qZWN0LnRpdGxlfTwvaDU+XG4gICAgICAgICAgICAgICAgPHNwYW4+e3Byb2plY3QudGltZX08L3NwYW4+XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3Byb3Byb2plY3RTdHlsZXMucGhvdG9zQ29udGFpbmVyfT5cbiAgICAgICAgICAgICAgICB7cHJvamVjdC5pbWFnZXMubWFwKChpbWFnZSwgaWR4KSA9PiB7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aWR4fSBjbGFzc05hbWU9e3Byb3Byb2plY3RTdHlsZXMuaW1hZ2V9IHN0eWxlPXt7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOiAndXJsKCcgKyBpbWFnZSArICcpJyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kUG9zaXRpb246ICdjZW50ZXInLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmRTaXplOiAnY292ZXInXG4gICAgICAgICAgICAgICAgICAgICAgICB9fT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogPGltZyBzcmM9e2ltYWdlfSAvPiAqL31cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgfSl9XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPXtwcm9wcm9qZWN0U3R5bGVzLnRleHR9Pntwcm9qZWN0LnRleHR9PC9wPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17cHJvcHJvamVjdFN0eWxlcy5hdHRyaWJ1dGVzfT5cbiAgICAgICAgICAgICAgICA8c3Bhbj5Sb2xlOjwvc3Bhbj5cbiAgICAgICAgICAgICAgICA8cD57cHJvamVjdC5yb2xlfTwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17cHJvcHJvamVjdFN0eWxlcy5hdHRyaWJ1dGVzfT5cbiAgICAgICAgICAgICAgICA8c3Bhbj5NYWluIGNvbnRyaWJ1dGlvbjo8L3NwYW4+XG4gICAgICAgICAgICAgICAgPHA+e3Byb2plY3QuY29udHJpYnV0aW9ufTwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17cHJvcHJvamVjdFN0eWxlcy5hdHRyaWJ1dGVzfT5cbiAgICAgICAgICAgICAgICA8c3Bhbj5UZWNobm9sb2d5Ojwvc3Bhbj5cbiAgICAgICAgICAgICAgICA8cD5UZWNobm9sb2dpZXMgZ28gaGVyZTwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgICAgIGltZyB7XG4gICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgICAgICAgICAgICAgIG9iamVjdC1maXQ6IGNvdmVyO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgICAgPC9yZWFjdC5GcmFnbWVudD5cbiAgICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IFByb1Byb2plY3RzOyJdfQ== */\n/*@ sourceURL=/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/components/shared/projects/ProProjects.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProProjects);
+
+/***/ }),
+
+/***/ "./components/shared/projects/Project.js":
+/*!***********************************************!*\
+  !*** ./components/shared/projects/Project.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ProProjects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProProjects */ "./components/shared/projects/ProProjects.js");
+/* harmony import */ var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/static/data/projects */ "./public/static/data/projects.json");
+var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../public/static/data/projects */ "./public/static/data/projects.json", 1);
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+ //import components
+
+ // import data
+
+
+
+const Project = props => {
+  // console.log(props.id)
+  return __jsx("div", {
+    className: "jsx-482345856" + " " + 'projectContainer'
+  }, (props.id === 'esri' || props.id === 'myipcs') && __jsx(_ProProjects__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_3__.proProjects[`${props.id}`]
+  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "482345856"
+  }, ".projectContainer.jsx-482345856{width:100%;margin-top:80px;margin-bottom:120px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvY29tcG9uZW50cy9zaGFyZWQvcHJvamVjdHMvUHJvamVjdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQndCLEFBSWdDLFdBQ0ssZ0JBQ0ksb0JBRXhCIiwiZmlsZSI6Ii9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvY29tcG9uZW50cy9zaGFyZWQvcHJvamVjdHMvUHJvamVjdC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCByZWFjdCBmcm9tICdyZWFjdCdcblxuLy9pbXBvcnQgY29tcG9uZW50c1xuaW1wb3J0IFByb1Byb2plY3RzIGZyb20gJy4vUHJvUHJvamVjdHMnXG5cbi8vIGltcG9ydCBkYXRhXG5pbXBvcnQgcHJvamVjdHNEYXRhIGZyb20gJy4uLy4uLy4uL3B1YmxpYy9zdGF0aWMvZGF0YS9wcm9qZWN0cydcblxuY29uc3QgUHJvamVjdCA9IChwcm9wcykgPT4ge1xuICAgIC8vIGNvbnNvbGUubG9nKHByb3BzLmlkKVxuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwcm9qZWN0Q29udGFpbmVyJz5cbiAgICAgICAgICAgIHsocHJvcHMuaWQgPT09ICdlc3JpJyB8fCBwcm9wcy5pZCA9PT0gJ215aXBjcycpICYmXG4gICAgICAgICAgICAgICAgPFByb1Byb2plY3RzIGRhdGE9e3Byb2plY3RzRGF0YS5wcm9Qcm9qZWN0c1tgJHtwcm9wcy5pZH1gXX0gLz5cbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgICAgIC5wcm9qZWN0Q29udGFpbmVyIHtcbiAgICAgICAgICAgICAgICAgICAgLy8gYm9yZGVyOiBibHVlIDJweCBzb2xpZDtcbiAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDgwcHg7XG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEyMHB4O1xuICAgICAgICAgICAgICAgICAgICAvLyBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgIDwvZGl2PlxuICAgIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgUHJvamVjdCJdfQ== */\n/*@ sourceURL=/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/components/shared/projects/Project.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Project);
+
+/***/ }),
+
+/***/ "./components/shared/projects/proprojects.module.scss":
+/*!************************************************************!*\
+  !*** ./components/shared/projects/proprojects.module.scss ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"projectHeading": "_1oq25E7xqVEq7wr3nN8Qcx",
+	"attributes": "_3D_1f4bBmrJg6lw1qMIqup",
+	"photosContainer": "_2f1K1_cSqQxL8IrG6yurBl",
+	"text": "_16fTmpqwuEgikDz6hiiY0d",
+	"image": "_1pVWZb2uuOJBcOGWhXENY5"
+};
 
 /***/ }),
 
@@ -626,14 +747,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/shared/ContentHead */ "./components/shared/ContentHead.js");
 /* harmony import */ var _components_shared_Tabs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/shared/Tabs */ "./components/shared/Tabs.js");
 /* harmony import */ var _components_shared_ProjectsTabs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/shared/ProjectsTabs */ "./components/shared/ProjectsTabs.js");
-/* harmony import */ var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../public/static/data/projects */ "./public/static/data/projects.json");
-var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/static/data/projects */ "./public/static/data/projects.json", 1);
-/* harmony import */ var _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/static/data/contentHeads.json */ "./public/static/data/contentHeads.json");
-var _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/static/data/contentHeads.json */ "./public/static/data/contentHeads.json", 1);
-/* harmony import */ var _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles/projects.module.scss */ "./pages/styles/projects.module.scss");
-/* harmony import */ var _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
-/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _components_shared_projects_Project__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/shared/projects/Project */ "./components/shared/projects/Project.js");
+/* harmony import */ var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/static/data/projects */ "./public/static/data/projects.json");
+var _public_static_data_projects__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/static/data/projects */ "./public/static/data/projects.json", 1);
+/* harmony import */ var _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/static/data/contentHeads.json */ "./public/static/data/contentHeads.json");
+var _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../public/static/data/contentHeads.json */ "./public/static/data/contentHeads.json", 1);
+/* harmony import */ var _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styles/projects.module.scss */ "./pages/styles/projects.module.scss");
+/* harmony import */ var _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -641,6 +763,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
  //import components
+
 
 
 
@@ -659,7 +782,7 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor() {
     super();
     this.state = {
-      activeTab: 'Academic',
+      activeTab: '',
       activeProject: ''
     };
     this.prevActiveTab = '';
@@ -677,12 +800,12 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     // console.log(this.state)
     return __jsx(_components_layouts_ContentLayout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx("section", null, __jsx("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('hero', _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.projectsHero)
-    }), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('hero', _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.projectsHero)
+    }), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], null, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
       delay: 200
     }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_9__.projects
-    })), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__.projects
+    })), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
       delay: 300
     }, __jsx(_components_shared_Tabs__WEBPACK_IMPORTED_MODULE_6__["default"], {
       onChange: this.handleChange,
@@ -693,13 +816,7 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       key: "Professional"
     }, "Professional"), __jsx("span", {
       key: "Personal"
-    }, "Personal"))), this.state.activeTab === 'Academic' && // <Fade right=
-    //     {
-    //         this.prevActiveTab === 'Professional' ? true :
-    //             this.prevActiveTab === 'Personal' ? true : false
-    //     }
-    //     duration={500}>
-    __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
+    }, "Personal"))), this.state.activeTab === 'Academic' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
       duration: 500
     }, __jsx(_components_shared_ProjectsTabs__WEBPACK_IMPORTED_MODULE_7__["default"], {
       onChange: active => {
@@ -708,17 +825,8 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         });
       },
       active: this.state.activeProject,
-      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_8__.slugs.Academic
-    })), this.state.activeTab === 'Professional' && // <Fade right=
-    //     {
-    //         this.prevActiveTab === 'Personal' ? true : false
-    //     }
-    //     left=
-    //     {
-    //         this.prevActiveTab === 'Academic' ? true : false
-    //     }
-    //     duration={500}>
-    __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_9__.slugs.Academic
+    })), this.state.activeTab === 'Professional' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
       duration: 500
     }, __jsx(_components_shared_ProjectsTabs__WEBPACK_IMPORTED_MODULE_7__["default"], {
       onChange: active => {
@@ -727,14 +835,8 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         });
       },
       active: this.state.activeProject,
-      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_8__.slugs.Professional
-    })), this.state.activeTab === 'Personal' && // <Fade left=
-    //     {
-    //         this.prevActiveTab === 'Academic' ? true :
-    //             this.prevActiveTab === 'Professional' ? true : false
-    //     }
-    //     duration={500}>
-    __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_9__.slugs.Professional
+    })), this.state.activeTab === 'Personal' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
       duration: 500
     }, __jsx(_components_shared_ProjectsTabs__WEBPACK_IMPORTED_MODULE_7__["default"], {
       onChange: active => {
@@ -743,13 +845,31 @@ class Projects extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         });
       },
       active: this.state.activeProject,
-      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_8__.slugs.Personal
+      data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_9__.slugs.Personal
+    })), this.state.activeProject !== '' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      duration: 500
+    }, __jsx(_components_shared_projects_Project__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      id: this.state.activeProject
     })))));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Projects);
+/* harmony default export */ __webpack_exports__["default"] = (Projects); // <Fade right=
+//     {
+//         this.prevActiveTab === 'Professional' ? true :
+//             this.prevActiveTab === 'Personal' ? true : false
+//     }
+//     duration={500}>
+// <Fade right=
+//     {
+//         this.prevActiveTab === 'Personal' ? true : false
+//     }
+//     left=
+//     {
+//         this.prevActiveTab === 'Academic' ? true : false
+//     }
+//     duration={500}>
 
 /***/ }),
 
@@ -781,10 +901,10 @@ module.exports = JSON.parse("{\"about_top\":{\"title\":\"Hi, nice to meet you!\"
 /*!******************************************!*\
   !*** ./public/static/data/projects.json ***!
   \******************************************/
-/*! exports provided: slugs, default */
+/*! exports provided: slugs, proProjects, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"slugs\":{\"Academic\":[{\"key\":\"rpi\",\"name\":\"Raspberry Pi CNC\"},{\"key\":\"chatbot\",\"name\":\"Chatbot Data Analysis\"}],\"Professional\":[{\"key\":\"esri\",\"name\":\"C# .NET ESRI\"},{\"key\":\"myipcs\",\"name\":\"Big Data (Census)\"},{\"key\":\"webcrawl\",\"name\":\"Python Web Crawl\"}],\"Personal\":[{\"key\":\"wedding\",\"name\":\"Wedding Planner\"},{\"key\":\"wifePort\",\"name\":\"Wife's Portfolio\"},{\"key\":\"ultimatePort\",\"name\":\"Ultimate Portfolio\"},{\"key\":\"recipeBook\",\"name\":\"Recipe Repository\"},{\"key\":\"funfactory\",\"name\":\"Kindergarden Website\"}]}}");
+module.exports = JSON.parse("{\"slugs\":{\"Academic\":[{\"key\":\"rpi\",\"name\":\"Raspberry Pi CNC\"},{\"key\":\"chatbot\",\"name\":\"Chatbot Data Analysis\"}],\"Professional\":[{\"key\":\"esri\",\"name\":\"C# .NET ESRI\"},{\"key\":\"myipcs\",\"name\":\"Big Data (Census)\"},{\"key\":\"webcrawl\",\"name\":\"Python Web Crawl\"}],\"Personal\":[{\"key\":\"wedding\",\"name\":\"Wedding Planner\"},{\"key\":\"wifePort\",\"name\":\"Wife's Portfolio\"},{\"key\":\"ultimatePort\",\"name\":\"Ultimate Portfolio\"},{\"key\":\"recipeBook\",\"name\":\"Recipe Repository\"},{\"key\":\"funfactory\",\"name\":\"Kindergarden Website\"}]},\"proProjects\":{\"esri\":{\"title\":\"Cadu 2 C# Development\",\"time\":\"Oct 2018 - Oct 2019\",\"text\":\"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"role\":\"Lead Developer\",\"contribution\":\"Fixed over 50+ bugs and did over 30+ feature enhancement on a pre-written code \",\"technology\":[\"C#\",\".NET Framework\",\"OracleDB\",\"ESRIArcGIS\"],\"images\":[\"/static/images/projects/esri/photo1.png\",\"/static/images/projects/esri/photo1.png\",\"/static/images/projects/esri/photo1.png\"]},\"myipcs\":{\"title\":\"Integrated Census (Big Data) Project\",\"time\":\"Oct 2018 - Oct 2019\",\"text\":\"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"role\":\"Lead Developer\",\"contribution\":\"Address ID Proof of Concept\",\"technology\":[\"NodeJS\",\"ReactJS\",\"ElasticSearch\",\"GraphQL\"],\"images\":[\"/static/images/projects/myipcs/photo1.png\",\"/static/images/projects/myipcs/photo1.png\",\"/static/images/projects/myipcs/photo1.png\"]}}}");
 
 /***/ }),
 
@@ -863,6 +983,17 @@ module.exports = require("react-spring");
 /***/ (function(module, exports) {
 
 module.exports = require("react-visibility-sensor");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 

@@ -1,0 +1,57 @@
+$marginBottom : 20px;
+
+.projectHeading {
+    // border: blue 1px solid;
+    margin-bottom: $marginBottom;
+    
+    h5 {
+        font-weight: bold;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    span{
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.attributes {
+    // border: green 1px solid;
+    margin-bottom: $marginBottom;
+
+    span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+.photosContainer {
+    // border: red 1px solid;
+    width: 100%;
+    min-height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    display: flex;
+    // justify-content: flex-start;
+    align-items: center;
+    // flex-wrap: wrap;
+}
+
+p, .text{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text {
+    margin-bottom: $marginBottom;
+}
+
+.image {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    // border: black solid 2px;
+    margin-right: 30px;
+}
