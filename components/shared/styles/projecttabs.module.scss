@@ -1,0 +1,52 @@
+.projectsContainer {
+    // border: green 2px solid;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    span {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 45px;
+        // identical to box height
+        color: #FFFFFF;
+        text-decoration: none;
+        opacity: 1;
+
+        // border: blue 1px solid;
+    }
+}
+
+.projectTabContainer {
+    border: white 1px solid;
+    margin: 0;
+    margin-right: 40px;
+    width: auto;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    border: black 1px solid;
+}
+
+.tabBox{
+    height: 45px;
+    background: #464646;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.95;
+}
+
+.tabBox:hover {
+    opacity: 1;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}

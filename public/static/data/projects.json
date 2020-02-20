@@ -1,0 +1,50 @@
+{
+    "slugs": {
+        "Academic": [
+            {
+                "key": "rpi",
+                "name": "Raspberry Pi CNC"
+            },
+            {
+                "key": "chatbot",
+                "name": "Chatbot Data Analysis"
+            }
+        ],
+        "Professional": [
+            {
+                "key": "esri",
+                "name": "C# .NET ESRI"
+            },
+            {
+                "key": "myipcs",
+                "name": "Big Data (Census)"
+            },
+            {
+                "key": "webcrawl",
+                "name": "Python Web Crawl"
+            }
+        ],
+        "Personal": [
+            {
+                "key": "wedding",
+                "name": "Wedding Planner"
+            },
+            {
+                "key": "wifePort",
+                "name": "Wife's Portfolio"
+            },
+            {
+                "key": "ultimatePort",
+                "name": "Ultimate Portfolio"
+            },
+            {
+                "key": "recipeBook",
+                "name": "Recipe Repository"
+            },
+            {
+                "key": "funfactory",
+                "name": "Kindergarden Website"
+            }
+        ]
+    }
+}

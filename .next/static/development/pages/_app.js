@@ -8754,7 +8754,9 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 react_reveal_globals__WEBPACK_IMPORTED_MODULE_15___default()({
   ssrFadeout: true
-}); //import global style
+}); //import data
+// import contentHeadData from '../public/static/data/contentHeads.json'
+//import global style
 
 
 

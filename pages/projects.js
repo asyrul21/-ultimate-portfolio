@@ -1,44 +1,112 @@
 import React from 'react';
 import Link from 'next/Link';
-import BaseLayout from '../components/layouts/BaseLayout'
+import cx from 'classnames'
+
+// import layouts
+import ContentLayout from '../components/layouts/ContentLayout'
+import ContentContainer from '../components/layouts/ContentContainer'
+
+//import components
+import ContentHead from '../components/shared/ContentHead'
+import Tabs from '../components/shared/Tabs'
+import ProjectsTabs from '../components/shared/ProjectsTabs'
+
+//import data
+import projectsData from '../public/static/data/projects'
+
+//import data
+import contentHeadData from '../public/static/data/contentHeads.json'
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module
-//import projectStyles from './project.module.scss';
+import projectsStyles from './styles/projects.module.scss';
+
+//React Reveal Animation
+import Fade from 'react-reveal/Fade';
 
 class Projects extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            activeTab: 'Academic',
+            activeProject: ''
+        }
+
+        this.prevActiveTab = ''
+
+        this.handleChange = this.handleChange.bind(this)
+    }
+
+    handleChange(active) {
+        this.prevActiveTab = this.state.activeTab
+        this.setState({
+            activeTab: active,
+            activeProject: ''
+        })
+    }
 
     render() {
+        // console.log(this.state)
         return (
-            <BaseLayout>
-                <h1>This is the Projects Page</h1>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor
-                    t Hampden-Sydney College in Virginia, looked up one of the more obscure
-                    Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                    the cites of the word in classical literature, discovered the undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                    written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
-                    dolor sit amet..", comes from a line in section 1.10.32.
+            <ContentLayout>
+                <section>
+                    <div className={cx('hero', projectsStyles.projectsHero)}></div>
 
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-                    et Malorum" by Cicero are also reproduced in their exact original form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.
+                    <ContentContainer>
+                        <Fade delay={200}>
+                            <ContentHead data={contentHeadData.projects} />
+                        </Fade>
 
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-                    et Malorum" by Cicero are also reproduced in their exact original form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.
+                        <Fade delay={300}>
+                            <Tabs onChange={this.handleChange} active={this.state.activeTab}>
+                                <span key="Academic">Academic</span>
+                                <span key="Professional">Professional</span>
+                                <span key="Personal">Personal</span>
+                            </Tabs>
+                        </Fade>
 
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-                    et Malorum" by Cicero are also reproduced in their exact original form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.</p>
-            </BaseLayout>
+                        {this.state.activeTab === 'Academic' &&
+                            // <Fade right=
+                            //     {
+                            //         this.prevActiveTab === 'Professional' ? true :
+                            //             this.prevActiveTab === 'Personal' ? true : false
+                            //     }
+                            //     duration={500}>
+                            <Fade duration={500}>
+
+                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Academic} />
+                            </Fade>
+                        }
+
+                        {this.state.activeTab === 'Professional' &&
+                            // <Fade right=
+                            //     {
+                            //         this.prevActiveTab === 'Personal' ? true : false
+                            //     }
+                            //     left=
+                            //     {
+                            //         this.prevActiveTab === 'Academic' ? true : false
+                            //     }
+                            //     duration={500}>
+                            <Fade duration={500}>
+                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Professional} />
+                            </Fade>
+                        }
+
+                        {this.state.activeTab === 'Personal' &&
+                            // <Fade left=
+                            //     {
+                            //         this.prevActiveTab === 'Academic' ? true :
+                            //             this.prevActiveTab === 'Professional' ? true : false
+                            //     }
+                            //     duration={500}>
+                            <Fade duration={500}>
+                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Personal} />
+                            </Fade>
+                        }
+                    </ContentContainer>
+                </section>
+            </ContentLayout >
         )
     }
 }

@@ -420,7 +420,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 react_reveal_globals__WEBPACK_IMPORTED_MODULE_2___default()({
   ssrFadeout: true
-}); //import global style
+}); //import data
+// import contentHeadData from '../public/static/data/contentHeads.json'
+//import global style
 
 
 

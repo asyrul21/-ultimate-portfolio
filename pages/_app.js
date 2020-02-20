@@ -4,6 +4,9 @@ import config from 'react-reveal/globals';
 
 config({ ssrFadeout: true });
 
+//import data
+// import contentHeadData from '../public/static/data/contentHeads.json'
+
 //import global style
 import '../styles/main.global.scss'
 

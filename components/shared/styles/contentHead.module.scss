@@ -11,6 +11,8 @@ $divheight : 100px;
     font-weight: bold;
     font-size: 36px;
 
+    margin-bottom: 10px;
+
     // height: $divheight;
 
 }
@@ -18,7 +20,7 @@ $divheight : 100px;
 .quote {
     width: 100%;
     font-family: 'DancingScript';
-    font-weight: 'regular';
+    font-weight: 'normal';
     font-size: 18px;
 
     // height: $divheight;
@@ -39,6 +41,7 @@ $divheight : 100px;
     width: 100%;
     margin-top: 20px;
     font-size: 14px;
+    font-weight: 500;
 
     // height: $divheight ;
 }
