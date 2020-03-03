@@ -8,9 +8,11 @@ const ProProjects = (props) => {
     const project = props.data
     return (
         <react.Fragment>
-            <div className={proprojectStyles.projectHeading}>
+            <div className={proprojectStyles.projectHeader}>
                 <h5>{project.title}</h5>
-                <span>{project.time}</span>
+            </div>
+            <div className={proprojectStyles.time}>
+                {project.time}
             </div>
 
             <div className={proprojectStyles.photosContainer}>

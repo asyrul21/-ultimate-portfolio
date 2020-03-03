@@ -2,6 +2,7 @@ import react from 'react'
 
 //import components
 import ProProjects from './ProProjects'
+import ProjectRpi from './ProjectRpi'
 
 // import data
 import projectsData from '../../../public/static/data/projects'
@@ -13,6 +14,10 @@ const Project = (props) => {
             {(props.id === 'esri' || props.id === 'myipcs') &&
                 <ProProjects data={projectsData.proProjects[`${props.id}`]} />
             }
+            {(props.id === 'rpi' || props.id === 'chatbot') &&
+                <ProjectRpi data={projectsData.academicProjects[`${props.id}`]} />
+            }
+
 
             <style jsx>{`
                 .projectContainer {

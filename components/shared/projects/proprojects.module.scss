@@ -1,19 +1,19 @@
 $marginBottom : 20px;
 
-.projectHeading {
+.projectHeader {
     // border: blue 1px solid;
-    margin-bottom: $marginBottom;
-    
-    h5 {
-        font-weight: bold;
-        font-size: 36px;
-        margin-bottom: 5px;
-    }
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
 
-    span{
-        font-weight: 500;
-        font-size: 14px;
-    }
+    margin-bottom: $marginBottom;
+}
+
+.time{
+    font-weight: 500;
+    font-size: 14px;
+
+    margin-bottom: 30px;
 }
 
 .attributes {

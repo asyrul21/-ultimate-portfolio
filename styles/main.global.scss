@@ -39,5 +39,24 @@ html, body {
         height: auto;
     }
 
+
+    //content photo containers
+    .row {
+        margin : 0;
+        margin-bottom: 10px;
+        // border: green solid 1px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .rowPhoto {
+        margin: 0;
+        // margin-right: 20px;
+        height: 200px;
+        // width: 150px;
+        background-size: cover;
+        background-position: center;
+    }
     
 }
