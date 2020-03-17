@@ -12625,7 +12625,7 @@ function (_react$Component) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 3:
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************************************************************************/
@@ -12648,5 +12648,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

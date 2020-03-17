@@ -14430,7 +14430,7 @@ module.exports = JSON.parse("{\"slugs\":{\"Academic\":[{\"key\":\"rpi\",\"name\"
 
 /***/ }),
 
-/***/ 2:
+/***/ 16:
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Fprojects.js ***!
   \********************************************************************************************************************************************************************************************************/
@@ -14453,5 +14453,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[16,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=projects.js.map
