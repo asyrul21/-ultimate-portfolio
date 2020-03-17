@@ -15849,7 +15849,7 @@ module.exports = JSON.parse("{\"work\":[{},{\"title\":\"Assistant Manager, C# ES
 
 /***/ }),
 
-/***/ 13:
+/***/ 14:
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Fabout.js ***!
   \**************************************************************************************************************************************************************************************************/
@@ -15872,5 +15872,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js","styles"]]]);
+},[[14,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map
