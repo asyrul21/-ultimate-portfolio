@@ -30,3 +30,19 @@
     //background-color: #80a3db;
     background-image: url('/static/images/hero/about_education.png');
 }
+
+.yasminBoxContainer {
+    border: red 2px dotted;  
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}

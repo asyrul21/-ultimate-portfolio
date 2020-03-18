@@ -1,33 +1,92 @@
 import react from 'react';
 import Link from 'next/Link';
-import BaseLayout from '../components/layouts/BaseLayout';
+import cx from 'classnames'
+
+// import layouts
+import ContentLayout from '../components/layouts/ContentLayout'
+import ContentContainer from '../components/layouts/ContentContainer'
+
+//import components
+import ContentHead from '../components/shared/ContentHead'
+import Tabs from '../components/shared/Tabs'
+import InnerTabs from '../components/shared/InnerTabs'
+import FitnessItem from '../components/shared/fitnessitems/FitnessItem'
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module
-// import fitnessStyles from './fitness.module.scss';
+import fitnessStyles from './styles/fitness.module.scss';
+
+// import data
+import contentHeadData from '../public/static/data/contentHeads.json'
+import fitnessData from '../public/static/data/fitness.json'
+
+//React Reveal Animation
+import Fade from 'react-reveal/Fade';
 
 class Fitness extends react.Component {
-    render() {
-        return (
-            <BaseLayout>
-                <h1>This is the Fitness Page</h1>
-                <p className={fitnessStyles.paragraph}>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor
-                    t Hampden-Sydney College in Virginia, looked up one of the more obscure
-                    Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                    the cites of the word in classical literature, discovered the undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                    written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
-                    dolor sit amet..", comes from a line in section 1.10.32.
+    constructor() {
+        super()
+        this.state = {
+            activeTab: '',
+            activeItem: ''
+        }
+        this.handleChange = this.handleChange.bind(this)
+    }
 
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
-                    et Malorum" by Cicero are also reproduced in their exact original form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.</p>
-            </BaseLayout>
+    handleChange(active) {
+        this.setState({
+            activeTab: active,
+            activeItem: ''
+        })
+    }
+
+    render() {
+        console.log(this.state.activeTab)
+        return (
+            <ContentLayout>
+                <section>
+                    <div className={cx('hero', fitnessStyles.fitnessHero)}></div>
+
+                    <ContentContainer>
+                        <Fade delay={200}>
+                            <ContentHead data={contentHeadData.fitness} />
+                        </Fade>
+
+                        <Fade delay={300}>
+                            <Tabs onChange={this.handleChange} active={this.state.activeTab}>
+                                <span key="Achievements">Achievements</span>
+                                <span key="Programs">Programs</span>
+                                <span key="Diet">Diet</span>
+                            </Tabs>
+                        </Fade>
+
+                        {this.state.activeTab === 'Achievements' &&
+
+                            <Fade duration={500}>
+                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Achievements} />
+                            </Fade>
+                        }
+
+                        {this.state.activeTab === 'Programs' &&
+                            <Fade duration={500}>
+                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Programs} />
+                            </Fade>
+                        }
+
+                        {this.state.activeTab === 'Diet' &&
+                            <Fade duration={500}>
+                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Diet} />
+                            </Fade>
+                        }
+
+                        {this.state.activeItem !== '' &&
+                            <Fade duration={500}>
+                                <FitnessItem id={this.state.activeItem} />
+                            </Fade>
+                        }
+                    </ContentContainer>
+                </section>
+            </ContentLayout>
         )
     }
 }

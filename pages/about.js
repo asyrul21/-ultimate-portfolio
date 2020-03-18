@@ -78,3 +78,10 @@ class About extends react.Component {
     }
 }
 export default About;
+
+
+{/* <div className={aboutStyles.yasminBoxContainer}>
+    <div className={aboutStyles.box}></div>
+    <div className={aboutStyles.box}></div>
+    <div className={aboutStyles.box}></div>
+</div> */}

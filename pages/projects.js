@@ -9,7 +9,7 @@ import ContentContainer from '../components/layouts/ContentContainer'
 //import components
 import ContentHead from '../components/shared/ContentHead'
 import Tabs from '../components/shared/Tabs'
-import ProjectsTabs from '../components/shared/ProjectsTabs'
+import InnerTabs from '../components/shared/InnerTabs'
 import Project from '../components/shared/projects/Project'
 
 //import data
@@ -69,19 +69,19 @@ class Projects extends React.Component {
                         {this.state.activeTab === 'Academic' &&
 
                             <Fade duration={500}>
-                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Academic} />
+                                <InnerTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Academic} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Professional' &&
                             <Fade duration={500}>
-                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Professional} />
+                                <InnerTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Professional} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Personal' &&
                             <Fade duration={500}>
-                                <ProjectsTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Personal} />
+                                <InnerTabs onChange={active => { this.setState({ activeProject: active }) }} active={this.state.activeProject} data={projectsData.slugs.Personal} />
                             </Fade>
                         }
 

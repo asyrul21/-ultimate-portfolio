@@ -1,0 +1,26 @@
+.categoriesContainer {
+    // border: green 2px solid;
+
+    margin-top: 90px;
+    padding: 30px 3px;
+    border-top: solid black 1px;
+    list-style: none;
+
+    width: 100%;
+    min-height: 300px;
+
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 237px;
+    width: 237px;
+    border: red solid 1px;
+    margin: 0;
+    margin-right: 29px;
+
+    margin-top: 60px;
+}
