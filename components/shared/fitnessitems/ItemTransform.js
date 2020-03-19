@@ -44,6 +44,12 @@ const ItemTransform = (props) => {
                     <div className={cx("rowPhoto", "main2")}></div>
                     <div className={cx("rowPhoto", "main2")}></div>
                 </div>
+                <div className="row">
+                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhoto", "main2")}></div>
+                </div>
             </ContentFragment>
 
             <ContentFragment subtitle="Results"
