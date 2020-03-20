@@ -1,5 +1,4 @@
 import react from 'react'
-import Link from 'next/Link'
 
 //import style
 import contentFragmentStyles from './contentFragment.module.scss'
