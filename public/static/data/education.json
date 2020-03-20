@@ -1,25 +1,32 @@
 {
     "education": [
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
-            "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "grade": "Grade: Distinction",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "title": "The University of Manchester",
+            "sub": "MSc Advanced Computer Science: Artificial Intelligence",
+            "time": "Sept 2019 - Sept 20",
+            "grade": "(Expected) Grade: Distinction",
+            "text": "The course lasts twelve(12) months of academic year, the first six months of which the following modules were covered: Foundations of Machine Leearning, Data Modelling, Unsupervised Learning, Data Querying, Text Mining/NLP, and Computer Vision, and the other 6 months are for the competion of a full MSc Project with a written Dissertation."
         },
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
-            "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "grade": "Grade: Distinction",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "title": "Multimedia University, Cyberjaya",
+            "sub": "BSc Computer Science (Software Engineering)",
+            "time": "Oct 2013 - March 2017",
+            "grade": "Grade: CGPA 3.71 (First Class Honours)",
+            "text": "This was when I was exposed to the beauty and excitement of software programming. We covered various topics including Software Design, Web Development, Algorithm Design and Analysis, Artificial Intelligence, Databases, Computer Networks and Security."
         },
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
-            "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "grade": "Grade: Distinction",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "title": "INTEC (International Education Center)",
+            "sub": "A-Levels",
+            "time": "Jul 2011 - Jun 2013",
+            "grade": "Results: Biology: E  Chemistry: D  Mathematics: B",
+            "text": "This was the point in my life that I actually failed and stumbled. I believe that great people fail, but what makes them great is the fact that they did not stay defeated, but they stay persistent to their goals and dreams, got back up, and try harder/smarter. Walt Disney, Stephen King, Bill Gates, JK Rowling are examples of personalities that failed before succeeding."
+        },
+        {
+            "title": "Sekolah Menengah Kebangsaan Taman S.E.A.",
+            "sub": "Sijil Pelajaran Malaysia (Malaysia Certificate of Education) - equivalent to the O-Levels",
+            "time": "2006 - 2010",
+            "grade": "Results: 9A's: 5A+",
+            "text": "My High School days. Worked very hard to achieve the results."
         }
     ]
 }

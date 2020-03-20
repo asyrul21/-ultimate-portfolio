@@ -1,23 +1,34 @@
 {
     "work": [
-        {},
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
+            "title": "C# .NET ESRI (GIS) Software Engineer",
             "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "time": "Oct 2018 – Aug 2019",
+            "text": "Performed maintenance and enhancements to the software that manages addresses’ geographical information on the Malaysian map. Involved C#, .NET, Oracle DB, and integration with the ESRI ArcGIS Engine. Worked independently to fix and resolve various issues and enhancements."
         },
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
+            "title": "Assistant Manager, Map Content Developer",
             "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "time": "Oct 2017 – Sep 2018",
+            "text": "Team Lead for the Data Management team of a large-scale, national-level Big Data project named MyIPCS (Malaysia Integrated Population Census System). End-to-end, Big Data processing and analytics web application development, using NodeJS, React and ElasticSearch."
         },
         {
-            "title": "Assistant Manager, C# ESRI GIS Application Developer",
+            "title": "Assistant Manager, Junior Data Engineer (Python)",
             "sub": "Telekom Malaysia Berhad",
-            "time": "month 2019 - month 2019",
-            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one."
+            "time": "Sep 2017 – Oct 2017",
+            "text": "I was involved heavily with Python web crawling engine called Scrapy, to crawl and extract data from various websites and news portals. The extracted data is then passed to my superior, who was the Data Scientist of the team."
+        },
+        {
+            "title": "Junior Software Developer",
+            "sub": "Annata",
+            "time": "Jun 2017 – Aug 2017",
+            "text": "I was involved in solving software errors and bugs, while working closely with Microsoft Dynamics AX."
+        },
+        {
+            "title": "Software Engineer Intern",
+            "sub": "Schlumberger",
+            "time": "Mar 2016 – Jun 2016",
+            "text": "Involved heavily with Microsoft Excel and Microsoft Access, macros, and Visual Basic programming language to automate and assist data management processes."
         }
     ]
 }

@@ -4,10 +4,11 @@
   "description": "My ultimate portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Asyrul Hafetzy",
   "license": "ISC",
@@ -21,7 +22,7 @@
     "body-parser": "^1.18.3",
     "classnames": "^2.2.6",
     "compression": "^1.7.3",
-    "emotion": "^9.2.12",
+    "emotion": "^10.0.27",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
     "fontfaceobserver": "^2.1.0",
@@ -39,7 +40,7 @@
     "react": "^16.13.0",
     "react-datepicker": "^1.8.0",
     "react-dom": "^16.13.0",
-    "react-emotion": "^9.2.12",
+    "react-emotion": "^10.0.0",
     "react-in-viewport": "^1.0.0-alpha.11",
     "react-reveal": "^1.2.2",
     "react-spring": "^8.0.27",

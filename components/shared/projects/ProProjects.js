@@ -4,8 +4,8 @@ import react from 'react'
 import proprojectStyles from './proprojects.module.scss'
 
 const ProProjects = (props) => {
-    // console.log(props.data[0].title)
     const project = props.data
+    // console.log(project.technology)
     return (
         <react.Fragment>
             <div className={proprojectStyles.projectHeader}>
@@ -43,7 +43,14 @@ const ProProjects = (props) => {
 
             <div className={proprojectStyles.attributes}>
                 <span>Technology:</span>
-                <p>Technologies go here</p>
+                <div className={proprojectStyles.technologyContainer}>
+                    {project.technology.map((tech, idx) => {
+                        return (
+                            <p key={idx}>{tech}</p>
+                        )
+                    })}
+                </div>
+
             </div>
             <style jsx>{`
                 img {
@@ -52,7 +59,7 @@ const ProProjects = (props) => {
                     object-fit: cover;
                 }
             `}</style>
-        </react.Fragment>
+        </react.Fragment >
     )
 }
 

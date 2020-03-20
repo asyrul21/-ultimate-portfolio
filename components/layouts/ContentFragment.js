@@ -1,4 +1,5 @@
 import react from 'react'
+import Link from 'next/Link'
 
 //import style
 import contentFragmentStyles from './contentFragment.module.scss'
@@ -8,7 +9,12 @@ const ContentFragment = (props) => {
         <react.Fragment>
             {props.title &&
                 <div className={contentFragmentStyles.fragmentHeader}>
-                    <h5>{props.title}</h5>
+                    {props.title}{' '}<span className={contentFragmentStyles.time}>({props.time})</span>
+                </div>
+            }
+            {props.link &&
+                <div className={contentFragmentStyles.linkContainer} >
+                    <a className={contentFragmentStyles.link} href={props.link} target="_blank">View</a>
                 </div>
             }
             {props.subtitle &&
@@ -16,11 +22,11 @@ const ContentFragment = (props) => {
                     <h5>{props.subtitle}</h5>
                 </div>
             }
-            {props.time &&
+            {/* {props.time &&
                 <div className={contentFragmentStyles.time}>
                     {props.time}
                 </div>
-            }
+            } */}
             <div className={contentFragmentStyles.text}>
                 {props.text}
             </div>

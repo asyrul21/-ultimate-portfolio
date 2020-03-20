@@ -1,9 +1,9 @@
-$marginBottom : 20px;
+$marginBottom : 40px;
 
 .fragmentHeader {
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
 
     margin-bottom: $marginBottom;
 }
@@ -20,13 +20,16 @@ $marginBottom : 20px;
     font-weight: 500;
     font-size: 14px;
 
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 
 .text{
     font-weight: 500;
     font-size: 14px;
     margin-bottom: 45px;
+}
+.linkContainer {
+    margin-bottom: 40px;
 }
 
 .photoContainer {
@@ -39,4 +42,16 @@ $marginBottom : 20px;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+}
+
+.link {
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 1;
+    // text-decoration: underline;
 }
