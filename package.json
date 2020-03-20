@@ -5,11 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "prestart": "next build",
-    "start": "next start -p $PORT",
     "build": "next build",
-    "heroku-postbuild": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run build",
+    "start": "next start -p $PORT"
   },
   "author": "Asyrul Hafetzy",
   "license": "ISC",
