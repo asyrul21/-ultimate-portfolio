@@ -1,5 +1,5 @@
 import react from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import cx from 'classnames'
 
 // import specific style here
