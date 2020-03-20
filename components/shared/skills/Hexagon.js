@@ -1,6 +1,6 @@
 // import specific style here
 import hexagonStyles from './hexagon.module.scss';
-import { cx } from 'emotion';
+import cx from 'classnames';
 
 const Hexagon = (props) => {
     return (

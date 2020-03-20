@@ -29,6 +29,7 @@
     "react-spring": "^8.0.27",
     "react-text-loop": "^2.3.0",
     "sass": "^1.26.3",
-    "optimize-css-assets-webpack-plugin": "^5.0.1"
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react-visibility-sensor": "^5.1.1"
   }
 }
