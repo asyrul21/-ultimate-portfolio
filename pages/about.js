@@ -1,5 +1,4 @@
 import react from 'react';
-import Link from 'next/Link';
 import cx from 'classnames'
 
 // import layouts

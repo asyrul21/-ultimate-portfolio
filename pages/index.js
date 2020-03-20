@@ -1,5 +1,5 @@
 import react from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 import BaseLayout from '../components/layouts/BaseLayout'
 import cx from 'classnames'
 import TextLoop from "react-text-loop";
