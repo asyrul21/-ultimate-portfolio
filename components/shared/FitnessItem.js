@@ -1,10 +1,10 @@
 import react from 'react'
 
 //import components
-import ItemTransform from './ItemTransform'
+import ItemTransform from './../fitnessItems/ItemTransform'
 
 // import data
-import fitnessData from '../../../public/static/data/fitness'
+import fitnessData from '../../public/static/data/fitness.json'
 
 const FitnessItem = (props) => {
     return (

@@ -10,7 +10,7 @@ import ContentContainer from '../components/layouts/ContentContainer'
 import ContentHead from '../components/shared/ContentHead'
 import Tabs from '../components/shared/Tabs'
 import InnerTabs from '../components/shared/InnerTabs'
-import FitnessItem from '../components/shared/fitnessitems/FitnessItem'
+import FitnessItem from '../components/shared/FitnessItem'
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module

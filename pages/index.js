@@ -9,7 +9,6 @@ import TextLoop from "react-text-loop";
 import indexStyles from './styles/index.module.scss';
 
 // this is the landing page
-
 const phrases = ['Full-Stack Web Development', 'Software Engineering', 'Machine Learning', 'Big Data']
 
 class Index extends react.Component {
