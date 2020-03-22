@@ -48,7 +48,6 @@ class About extends react.Component {
                         <SkillGraphics />
                     </ContentContainer>
                 </section>
-
                 <section>
                     <div className={cx('hero', aboutStyles.workHero)}></div>
                     <ContentContainer>
@@ -60,7 +59,6 @@ class About extends react.Component {
                         </Fade>
                     </ContentContainer>
                 </section>
-
                 <section>
                     <div className={cx('hero', aboutStyles.educationHero)}></div>
                     <ContentContainer>

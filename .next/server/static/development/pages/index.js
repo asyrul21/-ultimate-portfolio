@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -163,88 +163,133 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 13
       },
       __self: this
+    }, __jsx("a", {
+      href: "https://www.instagram.com/?hl=en",
+      target: "_blank",
+      className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socmed,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 16
       },
       __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.insta,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 17
       },
       __self: this
-    })), __jsx("div", {
+    }))), __jsx("a", {
+      href: "https://www.facebook.com/asyrulahmad21",
+      target: "_blank",
+      className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socmed,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 21
       },
       __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.fb,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 22
       },
       __self: this
-    })), __jsx("div", {
+    }))), __jsx("a", {
+      href: "mailto:asyrulhafetzy.21@gmail.com",
+      target: "_blank",
+      className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socmed,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 26
       },
       __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.email,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 27
       },
       __self: this
-    })), __jsx("div", {
+    }))), __jsx("a", {
+      href: "https://www.linkedin.com/in/asyrul-ahmad/",
+      target: "_blank",
+      className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socmed,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 31
       },
       __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.linkedin,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 32
       },
       __self: this
-    })), __jsx("div", {
+    }))), __jsx("a", {
+      href: "https://www.youtube.com/channel/UCiwjg5UyOX3KCqv1De2jA2w",
+      target: "_blank",
+      className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.socmed,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 36
       },
       __self: this
     }, __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.youtube,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 37
       },
       __self: this
-    }))), __jsx("div", {
+    })))), __jsx("div", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.text,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 41
       },
       __self: this
     }, "Asyrul Hafetzy Ahmad \xA9", __jsx("span", {
       className: _styles_footer_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.year,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 42
       },
       __self: this
     }, "2020")));
@@ -374,6 +419,7 @@ module.exports = {
 	"footer": "_1G6KdEe68Bq9lOdDzSEFsk",
 	"socmedContainer": "_11GuFnaAEG0J71ENb2G7wH",
 	"socmed": "_2FSPpFMz8bRszgpn68DS47",
+	"link": "_2n1M71IXMwwvkB3yIOd675",
 	"insta": "_2oCrJqiDVaRAIeO_g0MU-Q",
 	"fb": "KXfwJkzv1v7EwxOqJMxBa",
 	"email": "_3C0rl4yCn4h8fZmQIsX9AB",
@@ -2257,7 +2303,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

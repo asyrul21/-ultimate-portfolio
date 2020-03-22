@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: -350px;
+    margin-bottom: -200px;
 }
 
 .textContainer {
@@ -66,3 +66,55 @@
     font-weight: 300;
     font-size: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+    .IndexHero {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .IndexHero {
+        //background-color: #80a3db;
+        background-position: center;
+        // background-size: contain;
+        margin-bottom: -200px;
+    }
+    .textContainer{
+        padding: 20px;
+        width: 580px;
+        height: 180px;
+    }
+    .Welcome {
+        font-size: 64px;
+        margin-bottom: 10px;
+    }
+    .Name {
+        font-size: 20px;
+    }
+    .Job {
+        font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .IndexHero {
+        background-position: center;
+        margin-bottom: -205px;
+    }
+    .textContainer{
+        padding: 10px;
+        width: 350px;
+        height: 220px;
+    }
+    .Welcome {
+        font-size: 52px;
+        margin-bottom: 10px;
+    }
+    .Name {
+        font-size: 18px;
+    }
+    .Job {
+        font-size: 20px;
+    }
+  }

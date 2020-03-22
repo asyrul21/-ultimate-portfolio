@@ -46,3 +46,20 @@
     width: 50px;
     background-color: brown;
 }
+
+@media screen and (max-width: 770px) {
+    .aboutHero{
+        background-position: center;
+    }
+
+    .skillHero, .workHero, .educationHero {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .aboutHero {
+        background-position-x: -150px;
+        height: 400px;
+    }
+}

@@ -53,3 +53,18 @@ $skillBarHeight: 31px;
     height: 100%;
     background: #2E7BC1;
 }
+
+//Tablets
+@media screen and (max-width: 770px) {
+    .skill {
+        font-size: 16px;
+    }
+}
+
+//Mobile
+@media screen and (max-width: 420px) {
+
+    .skill {
+        font-size: 14px;
+    }
+}

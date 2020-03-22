@@ -21,3 +21,14 @@ p {
     font-size: 14px;
 }
 
+//mobile: iPhone SE and iPhone 5, Galaxy S5
+@media screen and (max-width: 360px) {
+
+    .title {
+        font-size: 12px;
+    }
+    
+    .sub {
+        font-size: 10px;
+    }
+}

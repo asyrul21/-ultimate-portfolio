@@ -2,6 +2,7 @@ import react from 'react'
 
 //import style
 import contentFragmentStyles from './contentFragment.module.scss'
+import ProjectRpi from '../projects/ProjectRpi';
 
 const ContentFragment = (props) => {
     return (
@@ -29,9 +30,21 @@ const ContentFragment = (props) => {
             <div className={contentFragmentStyles.text}>
                 {props.text}
             </div>
+
+            {props.type === 'links' &&
+                <div className={contentFragmentStyles.linkContainer} >
+                    {props.links.map((link, id) => {
+                        return (
+                            <a key={id} className={contentFragmentStyles.link} href={link} target="_blank">Video{id + 1}{'\t'}</a>
+                        )
+                    })
+                    }
+                </div>
+            }
+
             {props.children &&
-                <div className={contentFragmentStyles.photoContainer}>
-                    {/* children are just photos */}
+                <div className={contentFragmentStyles.ItemsContainer}>
+                    {/* children are just photos or links */}
                     {props.children}
                 </div>
             }

@@ -3,3 +3,15 @@
     background-image: url('/static/images/hero/projects.png');
     height: 600px;
 }
+
+@media screen and (max-width: 850px) {
+    .projectsHero{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .projectsHero {
+        height: 400px;
+    }
+}

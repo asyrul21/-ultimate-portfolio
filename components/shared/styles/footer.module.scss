@@ -10,11 +10,11 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 350px;
+    margin-top: 200px;
 }
 
 .socmedContainer {
-    width: 25%;
+    width: 300px;
     padding: 0;
 
     display: flex;
@@ -25,6 +25,8 @@
 .socmed {
     width: 50px;
     height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     margin: 0;
 
     display: flex;
@@ -32,6 +34,13 @@
 
     background-color: rgba(196, 196, 196, 0.5);
     opacity: 0.85;
+}
+
+.link {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    // z-index: 1;
 }
 
 .socmed:hover{
@@ -70,4 +79,36 @@
 
 .year {
     color: #FF0000;
+}
+
+
+// tablet
+@media screen and (max-width: 770px) {
+    .footer{
+        margin-top: 200px;
+    }
+}
+
+  @media screen and (max-width: 420px) {
+    .footer{
+        // border: green solid 1px;
+        margin-top: 200px;
+        padding: 90px 0;
+    }
+
+    .socmedContainer {
+        width: 300px;
+        padding: 0;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  }
+
+  //mobile: iPhone SE and iPhone 5, Galaxy S5
+  @media screen and (max-width: 360px) {
+    .socmedContainer {
+        width: 280px;
+    }
 }

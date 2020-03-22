@@ -21,7 +21,8 @@ const ProProjects = (props) => {
                         <div key={idx} className={proprojectStyles.image} style={{
                             backgroundImage: 'url(' + image + ')',
                             backgroundPosition: 'center',
-                            backgroundSize: 'cover'
+                            backgroundSize: 'cover',
+                            backgroundRepeat: 'no-repeat'
                         }}>
                             {/* <img src={image} /> */}
                         </div>

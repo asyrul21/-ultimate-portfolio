@@ -74,3 +74,36 @@ img {
 .hexagon::after {
     transform: rotate(-60deg)
 }
+
+@media screen and (max-width: 500px) {
+    .hexagonContainer{
+        width: 110px;
+        height: 110px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .hexagonContainer{
+        width: 88px;
+        height: 88px;
+    }
+
+    img {    
+        width: 45px;
+        height: 45px;
+    }
+  }
+
+  //mobile: iPhone SE and iPhone 5, Galaxy S5
+  @media screen and (max-width: 360px) {
+
+    .hexagonContainer{
+        width: 75px;
+        height: 75px;
+    }
+
+    img {    
+        width: 40px;
+        height: 40px;
+    }
+}

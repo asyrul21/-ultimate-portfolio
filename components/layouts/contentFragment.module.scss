@@ -26,15 +26,16 @@ $marginBottom : 40px;
 .text{
     font-weight: 500;
     font-size: 14px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 .linkContainer {
     margin-bottom: 40px;
 }
 
-.photoContainer {
+.ItemsContainer {
     // border: 2px blue solid;
     width: 100%;
+    margin-top: 45px;
     margin-bottom: 45px;
 
     //flex
@@ -45,6 +46,7 @@ $marginBottom : 40px;
 }
 
 .link {
+    // color: 'red';
     opacity: 0.8;
     font-weight: 500;
     font-size: 14px;
