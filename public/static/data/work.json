@@ -16,7 +16,7 @@
             "title": "Assistant Manager, Junior Data Engineer (Python)",
             "sub": "Telekom Malaysia Berhad",
             "time": "Sep 2017 – Oct 2017",
-            "text": "I was involved heavily with Python web crawling engine called Scrapy, to crawl and extract data from various websites and news portals. The extracted data is then passed to my superior, who was the Data Scientist of the team."
+            "text": "Using a Python web crawling engine called Scrapy, I was responsible for crawling and extracting data from various websites and news portals. The extracted data is then passed to my superior, who was the Data Scientist of the team."
         },
         {
             "title": "Junior Software Developer",
@@ -28,7 +28,7 @@
             "title": "Software Engineer Intern",
             "sub": "Schlumberger",
             "time": "Mar 2016 – Jun 2016",
-            "text": "Involved heavily with Microsoft Excel and Microsoft Access, macros, and Visual Basic programming language to automate and assist data management processes."
+            "text": "I worked with Microsoft Excel and Microsoft Access, macros, and Visual Basic programming language to automate and assist data management processes."
         }
     ]
 }

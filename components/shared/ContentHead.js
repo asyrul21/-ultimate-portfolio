@@ -19,21 +19,14 @@ const ContentHead = (props) => {
             <div className={headStyles.text}>
                 {props.data.text}
             </div>
+
+            {props.data.text2 &&
+                <div className={headStyles.text}>
+                    {props.data.text2}
+                </div>
+            }
         </div>
     )
 }
 
 export default ContentHead;
-
-// {props.children.map((element, idx) => {
-//     // gives tag names
-//     console.log(element.type)
-
-//     //gives element value
-//     //console.log(element.props.children)
-//     return (
-//         <div key={idx} className={`headStyles.${element.type}`}>
-//             {element.props.children}
-//         </div>
-//     )
-// })}
