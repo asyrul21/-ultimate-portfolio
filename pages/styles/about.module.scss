@@ -1,10 +1,13 @@
 .aboutHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/about_top.png');
-    height: 600px;
+    background-image: url('/static/images/hero/about_top.webp');
 }
 
-.skillHero, .workHero, .educationHero  {
+.herofallback {
+    background-image: url('/static/images/hero/about_top.jp2');
+}
+
+.skillHero, .skillfallback, .workHero, .workfallback,
+.educationHero, .educationfallback {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -16,19 +19,27 @@
 }
 
 .skillHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/about_skill.png');
-    
+    background-image: url('/static/images/hero/about_skill.webp');
+}
+
+.skillfallback {
+    background-image: url('/static/images/hero/about_skill.jp2');
 }
 
 .workHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/about_work.png');
+    background-image: url('/static/images/hero/about_work.webp');
+}
+
+.workfallback {
+    background-image: url('/static/images/hero/about_work.jp2');
 }
 
 .educationHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/about_education.png');
+    background-image: url('/static/images/hero/about_education.webp');
+}
+
+.educationfallback {
+    background-image: url('/static/images/hero/about_education.jp2');
 }
 
 .yasminBoxContainer {

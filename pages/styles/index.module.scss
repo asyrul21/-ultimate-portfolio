@@ -1,15 +1,18 @@
-.IndexHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/landing.png?webp');
-
-    //text
-    color: white;
-
-    //display
-    display: flex;
-    justify-content: center;
-
+.landing {
+    width: 100%;
+    height: 100vh;
     margin-bottom: -200px;
+    position: relative;
+}
+
+.Herofallback {
+    background-image: url('/static/images/hero/landing.jp2');
+    height: 100vh;
+}
+
+.IndexHero {
+    background-image: url('/static/images/hero/landing.webp');
+    height: 100vh;
 }
 
 .textContainer {
@@ -20,15 +23,14 @@
     width: 830px;
     height: 280px;
 
-    // display flex causing issues with react-text-loop
-    //flex
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // align-items: center;
+    //text
+    color: white;
 
-    // //text
-    // text-align: center;    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 // appear animation
@@ -78,7 +80,6 @@
         //background-color: #80a3db;
         background-position: center;
         // background-size: contain;
-        margin-bottom: -200px;
     }
     .textContainer{
         padding: 20px;
@@ -101,7 +102,6 @@
     .IndexHero {
         background-image: url('/static/images/hero/landing_mobile.png');
         background-position: center;
-        margin-bottom: -205px;
     }
     .textContainer{
         padding: 10px;

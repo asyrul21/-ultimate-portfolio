@@ -13,6 +13,7 @@ $Photosheight_tablet: 220px;
 
 html, body {
     font-family: 'Montserrat';
+    position: relative;
 }
 
 a {
@@ -22,13 +23,19 @@ a {
 
 :global {
     .hero {
-        height: 100vh;
+        height: 600px;
         width: 100%;
         padding: 100px 0;
         //background
         background-size: cover;
         z-index: -1;
-        // margin-bottom: 90px;
+    }
+
+    .fallback {
+        padding: 0;
+        //background
+        background-size: cover;
+        // z-index: -1;
     }
 
     section {
