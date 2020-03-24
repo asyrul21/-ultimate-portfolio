@@ -21,6 +21,18 @@ p {
     font-size: 14px;
 }
 
+//mobile: iPhone SE and iPhone X
+@media screen and (max-width: 420px) {
+
+    .title {
+        font-size: 13px;
+    }
+    
+    .sub {
+        font-size: 13px;
+    }
+}
+
 //mobile: iPhone SE and iPhone 5, Galaxy S5
 @media screen and (max-width: 360px) {
 

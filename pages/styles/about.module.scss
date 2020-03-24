@@ -59,7 +59,21 @@
 
 @media screen and (max-width: 420px) {
     .aboutHero {
-        background-position-x: -150px;
+        background-image: url('/static/images/hero/about_top_mobile.png');
+        // background-position-x: -150px;
         height: 400px;
+    }
+
+    .skillHero {
+        background-image: url('/static/images/hero/about_skill_mobile.png');
+        
+    }
+    
+    .workHero {
+        background-image: url('/static/images/hero/about_work_mobile.png');
+    }
+    
+    .educationHero {
+        background-image: url('/static/images/hero/about_education_mobile.png');
     }
 }
