@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2301,7 +2301,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 25
       },
       __self: this
-    }, "Asyrul Ahmad"), __jsx("meta", {
+    }, "Asyrul Ahmad : Software Engineer Portfolio"), __jsx("meta", {
       name: "viewport",
       content: "initial-scale=1.0, width=device-width",
       key: "viewport",
@@ -2310,71 +2310,80 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 26
       },
       __self: this
+    }), __jsx("meta", {
+      name: "description",
+      content: "This is the landing page of Asyrul Hafetzy's portfolio website. The website is designed to showcase Asyrul Hafetzy's expertise in several areas in Computer Science, such as Software Engineering, Big Data, Artificial Intelligence, and Full-stack web development.",
+      key: "description",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
     })), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 37
       },
       __self: this
     }, __jsx("div", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.landing,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 38
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()('fallback', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Herofallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 40
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()('hero', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.IndexHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 41
       },
       __self: this
     })), __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.textContainer, _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.appear),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 43
       },
       __self: this
     }, __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 44
       },
       __self: this
     }, __jsx("h4", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Welcome,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 45
       },
       __self: this
     }, "Welcome to My World")), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 47
       },
       __self: this
     }, __jsx("h4", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 48
       },
       __self: this
     }, "Asyrul Hafetzy Ahmad"), __jsx("h5", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Job,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 49
       },
       __self: this
     }, __jsx(react_text_loop__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -2383,31 +2392,31 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       mask: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 50
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 55
       },
       __self: this
     }, "Full-stack Web Development"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 56
       },
       __self: this
     }, "Software Engineering"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 57
       },
       __self: this
     }, "Big Data"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 58
       },
       __self: this
     }, "Artificial Intelligence"))))))));
@@ -2464,7 +2473,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

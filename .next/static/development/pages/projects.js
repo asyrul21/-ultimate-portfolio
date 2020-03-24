@@ -10530,7 +10530,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           lineNumber: 55
         },
         __self: this
-      }, "My Portfolio"), __jsx("meta", {
+      }, "Asyrul Ahmad: My Portfolio"), __jsx("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width",
         key: "viewport",
@@ -10539,51 +10539,60 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           lineNumber: 56
         },
         __self: this
+      }), __jsx("meta", {
+        name: "description",
+        content: "This is the work page of Asyrul Hafetzy's portfolio website. The page stores information regarding his past projects. There three main categories, academic, professional and personal projects. For now, there are two items in Asyrul Hafetzy's academic project; Using Raspberry Pi 3 to Drive Computerised Numerical Machine (CNC) machine, and A Chatbot to Facilitate Data Preperation Analysis. For Asyrul Hafetzy's professional projects, there are three; the C# ESRI CADU 2, MyIPCS, and Web Crawling with Python. For Asyrul Hafetzy's Personal projects, there are a few; the Wedding Planner system, his Wife's Portfolio, Asyrul's Portfolio, Recipe Book and Kindergarten website.",
+        key: "description",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
       })), __jsx("section", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 67
         },
         __self: this
       }, __jsx("div", {
         className: classnames__WEBPACK_IMPORTED_MODULE_8___default()('fallback', _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_18___default.a.projectsfallback),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 68
         },
         __self: this
       }, __jsx("div", {
         className: classnames__WEBPACK_IMPORTED_MODULE_8___default()('hero', _styles_projects_module_scss__WEBPACK_IMPORTED_MODULE_18___default.a.projectsHero),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 69
         },
         __self: this
       })), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 72
         },
         __self: this
       }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         delay: 200,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 73
         },
         __self: this
       }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_12__["default"], {
         data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_17__.projects,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 74
         },
         __self: this
       })), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         delay: 300,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 77
         },
         __self: this
       }, __jsx(_components_shared_Tabs__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -10591,35 +10600,35 @@ var Projects = /*#__PURE__*/function (_React$Component) {
         active: this.state.activeTab,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 78
         },
         __self: this
       }, __jsx("span", {
         key: "Academic",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 79
         },
         __self: this
       }, "Academic"), __jsx("span", {
         key: "Professional",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 80
         },
         __self: this
       }, "Professional"), __jsx("span", {
         key: "Personal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 81
         },
         __self: this
       }, "Personal"))), this.state.activeTab === 'Academic' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         duration: 500,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 87
         },
         __self: this
       }, __jsx(_components_shared_InnerTabs__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -10632,14 +10641,14 @@ var Projects = /*#__PURE__*/function (_React$Component) {
         data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_16__.slugs.Academic,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 88
         },
         __self: this
       })), this.state.activeTab === 'Professional' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         duration: 500,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 93
         },
         __self: this
       }, __jsx(_components_shared_InnerTabs__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -10652,14 +10661,14 @@ var Projects = /*#__PURE__*/function (_React$Component) {
         data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_16__.slugs.Professional,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 94
         },
         __self: this
       })), this.state.activeTab === 'Personal' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         duration: 500,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 99
         },
         __self: this
       }, __jsx(_components_shared_InnerTabs__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -10672,21 +10681,21 @@ var Projects = /*#__PURE__*/function (_React$Component) {
         data: _public_static_data_projects__WEBPACK_IMPORTED_MODULE_16__.slugs.Personal,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 100
         },
         __self: this
       })), this.state.activeProject !== '' && __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_19___default.a, {
         duration: 500,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 105
         },
         __self: this
       }, __jsx(_components_shared_projects_Project__WEBPACK_IMPORTED_MODULE_15__["default"], {
         id: this.state.activeProject,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 106
         },
         __self: this
       })))));
@@ -10736,7 +10745,7 @@ module.exports = JSON.parse("{\"slugs\":{\"Academic\":[{\"key\":\"rpi\",\"name\"
 
 /***/ }),
 
-/***/ 16:
+/***/ 7:
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Fprojects.js ***!
   \********************************************************************************************************************************************************************************************************/
@@ -10759,5 +10768,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[16,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=projects.js.map

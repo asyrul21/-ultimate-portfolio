@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2891,7 +2891,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 34
       },
       __self: this
-    }, "About Me"), __jsx("meta", {
+    }, "Asyrul Ahmad: About Me"), __jsx("meta", {
       name: "viewport",
       content: "initial-scale=1.0, width=device-width",
       key: "viewport",
@@ -2900,198 +2900,207 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 35
       },
       __self: this
+    }), __jsx("meta", {
+      name: "description",
+      content: "This is the about page of Asyrul Hafetzy's portfolio website. The page stores information regarding Asyrul Hafetzy's expertise in Computer Science, his work experiences, technical skills, and educational background.",
+      key: "description",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
     })), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 46
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('fallback', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.herofallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 47
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('hero', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.aboutHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 48
       },
       __self: this
     })), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 51
       },
       __self: this
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 200,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 52
       },
       __self: this
     }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__["default"], {
       data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__.about_top,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 53
       },
       __self: this
     })))), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 58
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('fallback', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.skillfallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 59
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('hero', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.skillHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 60
       },
       __self: this
     })), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 62
       },
       __self: this
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 200,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 63
       },
       __self: this
     }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__["default"], {
       data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__.about_skill,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 64
       },
       __self: this
     })), __jsx(_components_shared_SkillGraphics__WEBPACK_IMPORTED_MODULE_7__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 66
       },
       __self: this
     }))), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 69
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('fallback', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.workfallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 70
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('hero', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.workHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 71
       },
       __self: this
     })), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 73
       },
       __self: this
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 200,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 74
       },
       __self: this
     }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__["default"], {
       data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__.about_work,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 75
       },
       __self: this
     })), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 300,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 77
       },
       __self: this
     }, __jsx(_components_shared_Timeline__WEBPACK_IMPORTED_MODULE_6__["default"], {
       data: _public_static_data_work_json__WEBPACK_IMPORTED_MODULE_8__.work,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 78
       },
       __self: this
     })))), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77
+        lineNumber: 82
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('fallback', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.educationfallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 83
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_1___default()('hero', _styles_about_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.educationHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 84
       },
       __self: this
     })), __jsx(_components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 86
       },
       __self: this
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 200,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 87
       },
       __self: this
     }, __jsx(_components_shared_ContentHead__WEBPACK_IMPORTED_MODULE_5__["default"], {
       data: _public_static_data_contentHeads_json__WEBPACK_IMPORTED_MODULE_10__.about_education,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 88
       },
       __self: this
     })), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_11___default.a, {
       delay: 300,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 90
       },
       __self: this
     }, __jsx(_components_shared_Timeline__WEBPACK_IMPORTED_MODULE_6__["default"], {
       data: _public_static_data_education_json__WEBPACK_IMPORTED_MODULE_9__.education,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 91
       },
       __self: this
     })))));
@@ -3165,7 +3174,7 @@ module.exports = JSON.parse("{\"work\":[{\"title\":\"C# .NET ESRI (GIS) Software
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

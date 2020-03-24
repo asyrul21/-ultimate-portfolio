@@ -31,11 +31,16 @@ class About extends react.Component {
         return (
             <ContentLayout>
                 <Head>
-                    <title>About Me</title>
+                    <title>Asyrul Ahmad: About Me</title>
                     <meta
                         name="viewport"
                         content="initial-scale=1.0, width=device-width"
                         key="viewport"
+                    />
+                    <meta
+                        name="description"
+                        content="This is the about page of Asyrul Hafetzy's portfolio website. The page stores information regarding Asyrul Hafetzy's expertise in Computer Science, his work experiences, technical skills, and educational background."
+                        key="description"
                     />
                 </Head>
                 <section>

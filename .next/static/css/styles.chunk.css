@@ -381,6 +381,126 @@ a, div._16xJ6Gr4E3Ez3WL9Q23t7O {
     width: 280px;
   }
 }
+.UBYuk19RdAhA85Y-xYE-v {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: -200px;
+  position: relative;
+}
+
+._12k3-9S_mxg6o6LInmX_JE {
+  background-image: url("/static/images/hero/landing.jp2");
+  height: 100vh;
+}
+
+._3olEcnNI1gv9LjKOf4hX32 {
+  background-image: url("/static/images/hero/landing.webp");
+  height: 100vh;
+}
+
+._3JPe-yxVweEx3SNyqLwX0O {
+  background: rgba(0, 0, 0, 0.42);
+  margin: auto auto;
+  padding: 15px;
+  width: 830px;
+  height: 280px;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+._2x4SE4dlJM8Nds1ITWEp4I {
+  animation: _1lOXMWzUO7b-20ejqb4h4E 0.65s ease-in forwards;
+}
+
+@keyframes _1lOXMWzUO7b-20ejqb4h4E {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+._38tICKC0ZmNbmjCMv1Gfn {
+  font-family: "DancingScript";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  margin-bottom: 30px;
+}
+
+._2vXhFBf99N4pJzWCrAksTC {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.WvWeWYLcXkomb9oOI_Dld {
+  width: 100%;
+  border: solid green 2px;
+}
+
+._2FRtfTtreCX7tlUSJfOsW0 {
+  font-weight: 300;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  ._3olEcnNI1gv9LjKOf4hX32 {
+    background-position: center;
+  }
+}
+@media screen and (max-width: 770px) {
+  ._3olEcnNI1gv9LjKOf4hX32 {
+    background-position: center;
+  }
+
+  ._3JPe-yxVweEx3SNyqLwX0O {
+    padding: 20px;
+    width: 580px;
+    height: 180px;
+  }
+
+  ._38tICKC0ZmNbmjCMv1Gfn {
+    font-size: 64px;
+    margin-bottom: 10px;
+  }
+
+  ._2vXhFBf99N4pJzWCrAksTC {
+    font-size: 20px;
+  }
+
+  ._2FRtfTtreCX7tlUSJfOsW0 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 420px) {
+  ._3olEcnNI1gv9LjKOf4hX32 {
+    background-image: url("/static/images/hero/landing_mobile.png");
+    background-position: center;
+  }
+
+  ._3JPe-yxVweEx3SNyqLwX0O {
+    padding: 10px;
+    width: 350px;
+    height: 220px;
+  }
+
+  ._38tICKC0ZmNbmjCMv1Gfn {
+    font-size: 52px;
+    margin-bottom: 10px;
+  }
+
+  ._2vXhFBf99N4pJzWCrAksTC {
+    font-size: 18px;
+  }
+
+  ._2FRtfTtreCX7tlUSJfOsW0 {
+    font-size: 20px;
+  }
+}
 ._1qJqvjFdArUczCb9Hw-xG1 {
   width: 100%;
   font-style: normal;
@@ -992,126 +1112,6 @@ img {
 
   ._2guBLTSEwhldHqNw03PBfz {
     background-image: url("/static/images/hero/about_education_mobile.png");
-  }
-}
-.UBYuk19RdAhA85Y-xYE-v {
-  width: 100%;
-  height: 100vh;
-  margin-bottom: -200px;
-  position: relative;
-}
-
-._12k3-9S_mxg6o6LInmX_JE {
-  background-image: url("/static/images/hero/landing.jp2");
-  height: 100vh;
-}
-
-._3olEcnNI1gv9LjKOf4hX32 {
-  background-image: url("/static/images/hero/landing.webp");
-  height: 100vh;
-}
-
-._3JPe-yxVweEx3SNyqLwX0O {
-  background: rgba(0, 0, 0, 0.42);
-  margin: auto auto;
-  padding: 15px;
-  width: 830px;
-  height: 280px;
-  color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-._2x4SE4dlJM8Nds1ITWEp4I {
-  animation: _1lOXMWzUO7b-20ejqb4h4E 0.65s ease-in forwards;
-}
-
-@keyframes _1lOXMWzUO7b-20ejqb4h4E {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-._38tICKC0ZmNbmjCMv1Gfn {
-  font-family: "DancingScript";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 96px;
-  margin-bottom: 30px;
-}
-
-._2vXhFBf99N4pJzWCrAksTC {
-  font-weight: 300;
-  font-size: 36px;
-}
-
-.WvWeWYLcXkomb9oOI_Dld {
-  width: 100%;
-  border: solid green 2px;
-}
-
-._2FRtfTtreCX7tlUSJfOsW0 {
-  font-weight: 300;
-  font-size: 48px;
-}
-
-@media screen and (max-width: 1024px) {
-  ._3olEcnNI1gv9LjKOf4hX32 {
-    background-position: center;
-  }
-}
-@media screen and (max-width: 770px) {
-  ._3olEcnNI1gv9LjKOf4hX32 {
-    background-position: center;
-  }
-
-  ._3JPe-yxVweEx3SNyqLwX0O {
-    padding: 20px;
-    width: 580px;
-    height: 180px;
-  }
-
-  ._38tICKC0ZmNbmjCMv1Gfn {
-    font-size: 64px;
-    margin-bottom: 10px;
-  }
-
-  ._2vXhFBf99N4pJzWCrAksTC {
-    font-size: 20px;
-  }
-
-  ._2FRtfTtreCX7tlUSJfOsW0 {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 420px) {
-  ._3olEcnNI1gv9LjKOf4hX32 {
-    background-image: url("/static/images/hero/landing_mobile.png");
-    background-position: center;
-  }
-
-  ._3JPe-yxVweEx3SNyqLwX0O {
-    padding: 10px;
-    width: 350px;
-    height: 220px;
-  }
-
-  ._38tICKC0ZmNbmjCMv1Gfn {
-    font-size: 52px;
-    margin-bottom: 10px;
-  }
-
-  ._2vXhFBf99N4pJzWCrAksTC {
-    font-size: 18px;
-  }
-
-  ._2FRtfTtreCX7tlUSJfOsW0 {
-    font-size: 20px;
   }
 }
 

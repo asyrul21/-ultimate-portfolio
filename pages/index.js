@@ -22,11 +22,16 @@ class Index extends react.Component {
         return (
             <ContentLayout>
                 <Head>
-                    <title>Asyrul Ahmad</title>
+                    <title>Asyrul Ahmad : Software Engineer Portfolio</title>
                     <meta
                         name="viewport"
                         content="initial-scale=1.0, width=device-width"
                         key="viewport"
+                    />
+                    <meta
+                        name="description"
+                        content="This is the landing page of Asyrul Hafetzy's portfolio website. The website is designed to showcase Asyrul Hafetzy's expertise in several areas in Computer Science, such as Software Engineering, Big Data, Artificial Intelligence, and Full-stack web development."
+                        key="description"
                     />
                 </Head>
                 <section>

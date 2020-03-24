@@ -52,11 +52,16 @@ class Projects extends React.Component {
         return (
             <ContentLayout>
                 <Head>
-                    <title>My Portfolio</title>
+                    <title>Asyrul Ahmad: My Portfolio</title>
                     <meta
                         name="viewport"
                         content="initial-scale=1.0, width=device-width"
                         key="viewport"
+                    />
+                    <meta
+                        name="description"
+                        content="This is the work page of Asyrul Hafetzy's portfolio website. The page stores information regarding his past projects. There three main categories, academic, professional and personal projects. For now, there are two items in Asyrul Hafetzy's academic project; Using Raspberry Pi 3 to Drive Computerised Numerical Machine (CNC) machine, and A Chatbot to Facilitate Data Preperation Analysis. For Asyrul Hafetzy's professional projects, there are three; the C# ESRI CADU 2, MyIPCS, and Web Crawling with Python. For Asyrul Hafetzy's Personal projects, there are a few; the Wedding Planner system, his Wife's Portfolio, Asyrul's Portfolio, Recipe Book and Kindergarten website."
+                        key="description"
                     />
                 </Head>
                 <section>
