@@ -30,7 +30,9 @@ class About extends react.Component {
         return (
             <ContentLayout>
                 <section>
-                    <div className={cx('hero', aboutStyles.aboutHero)}></div>
+                    <div className={cx('fallback', aboutStyles.herofallback)}>
+                        <div className={cx('hero', aboutStyles.aboutHero)}></div>
+                    </div>
 
                     <ContentContainer>
                         <Fade delay={200}>
@@ -40,7 +42,9 @@ class About extends react.Component {
                 </section>
 
                 <section>
-                    <div className={cx('hero', aboutStyles.skillHero)}></div>
+                    <div className={cx('fallback', aboutStyles.skillfallback)}>
+                        <div className={cx('hero', aboutStyles.skillHero)}></div>
+                    </div>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.about_skill} />
@@ -49,7 +53,9 @@ class About extends react.Component {
                     </ContentContainer>
                 </section>
                 <section>
-                    <div className={cx('hero', aboutStyles.workHero)}></div>
+                    <div className={cx('fallback', aboutStyles.workfallback)}>
+                        <div className={cx('hero', aboutStyles.workHero)}></div>
+                    </div>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.about_work} />
@@ -60,7 +66,9 @@ class About extends react.Component {
                     </ContentContainer>
                 </section>
                 <section>
-                    <div className={cx('hero', aboutStyles.educationHero)}></div>
+                    <div className={cx('fallback', aboutStyles.educationfallback)}>
+                        <div className={cx('hero', aboutStyles.educationHero)}></div>
+                    </div>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.about_education} />

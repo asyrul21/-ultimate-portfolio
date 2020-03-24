@@ -1,7 +1,9 @@
 .projectsHero {
-    //background-color: #80a3db;
-    background-image: url('/static/images/hero/projects.png');
-    height: 600px;
+    background-image: url('/static/images/hero/projects.webp');
+}
+
+.projectsfallback {
+    background-image: url('/static/images/hero/projects.jp2');
 }
 
 @media screen and (max-width: 850px) {
