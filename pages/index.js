@@ -3,6 +3,7 @@ import Link from 'next/link';
 import BaseLayout from '../components/layouts/BaseLayout'
 import cx from 'classnames'
 import TextLoop from "react-text-loop";
+import Head from 'next/head'
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module
@@ -20,6 +21,14 @@ class Index extends react.Component {
     render() {
         return (
             <ContentLayout>
+                <Head>
+                    <title>Asyrul Ahmad</title>
+                    <meta
+                        name="viewport"
+                        content="initial-scale=1.0, width=device-width"
+                        key="viewport"
+                    />
+                </Head>
                 <section>
                     <div className={indexStyles.landing}
                     >

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import cx from 'classnames'
+import Head from 'next/head'
 
 // import layouts
 import ContentLayout from '../components/layouts/ContentLayout'
@@ -50,6 +51,14 @@ class Projects extends React.Component {
         // console.log(this.state)
         return (
             <ContentLayout>
+                <Head>
+                    <title>My Portfolio</title>
+                    <meta
+                        name="viewport"
+                        content="initial-scale=1.0, width=device-width"
+                        key="viewport"
+                    />
+                </Head>
                 <section>
                     <div className={cx('fallback', projectsStyles.projectsfallback)}>
                         <div className={cx('hero', projectsStyles.projectsHero)}></div>

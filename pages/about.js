@@ -1,5 +1,6 @@
 import react from 'react';
 import cx from 'classnames'
+import Head from 'next/head'
 
 // import layouts
 import ContentLayout from '../components/layouts/ContentLayout'
@@ -29,6 +30,14 @@ class About extends react.Component {
         // console.log(contentHeadData.about_top)
         return (
             <ContentLayout>
+                <Head>
+                    <title>About Me</title>
+                    <meta
+                        name="viewport"
+                        content="initial-scale=1.0, width=device-width"
+                        key="viewport"
+                    />
+                </Head>
                 <section>
                     <div className={cx('fallback', aboutStyles.herofallback)}>
                         <div className={cx('hero', aboutStyles.aboutHero)}></div>
