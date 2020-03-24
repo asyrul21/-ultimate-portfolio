@@ -65,12 +65,9 @@ class About extends react.Component {
                 <section>
                     <div className={cx('hero', aboutStyles.educationHero)}></div>
                     <ContentContainer>
-                        <Fade delay={200}>
-                            <ContentHead data={contentHeadData.about_education} />
-                        </Fade>
-                        <Fade delay={300}>
-                            <Timeline data={educationData.education} />
-                        </Fade>
+                       <div className={aboutStyles.yasminBox}>
+                           Hello there this is a Yasmin Box
+                       </div>
                     </ContentContainer>
                 </section>
             </ContentLayout>
@@ -78,3 +75,10 @@ class About extends react.Component {
     }
 }
 export default About;
+
+{/* <Fade delay={200}>
+<ContentHead data={contentHeadData.about_education} />
+</Fade>
+<Fade delay={300}>
+<Timeline data={educationData.education} />
+</Fade> */}
