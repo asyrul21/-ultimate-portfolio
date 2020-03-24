@@ -9462,7 +9462,7 @@ module.exports = JSON.parse("{\"work\":[{\"title\":\"C# .NET ESRI (GIS) Software
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Fabout.js ***!
   \**************************************************************************************************************************************************************************************************/
@@ -9485,5 +9485,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map
