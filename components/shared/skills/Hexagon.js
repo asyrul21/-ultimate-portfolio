@@ -5,8 +5,7 @@ import cx from 'classnames';
 const Hexagon = (props) => {
     return (
         <div className={cx(hexagonStyles.hexagonContainer, props.style)}>
-            <img></img>
-            {/* <img className={hexagonStyles.ml}></img> */}
+            <img alt='hexagon'></img>
             <div className={hexagonStyles.hexagon}></div>
         </div>
     )
