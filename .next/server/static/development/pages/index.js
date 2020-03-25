@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2319,71 +2319,80 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 31
       },
       __self: this
+    }), __jsx("meta", {
+      name: "google-site-verification",
+      content: "-RqGQnryBd7gPTbO6HbslKWuygGBDPJ4pnZpSs0KjbA",
+      key: "google-site-verification",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
     })), __jsx("section", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 41
       },
       __self: this
     }, __jsx("div", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.landing,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 42
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()('fallback', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Herofallback),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 44
       },
       __self: this
     }, __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()('hero', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.IndexHero),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 45
       },
       __self: this
     })), __jsx("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.textContainer, _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.appear),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 47
       },
       __self: this
     }, __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 48
       },
       __self: this
     }, __jsx("h4", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Welcome,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 49
       },
       __self: this
     }, "Welcome to My World")), __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 51
       },
       __self: this
     }, __jsx("h4", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 52
       },
       __self: this
     }, "Asyrul Hafetzy Ahmad"), __jsx("h5", {
       className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Job,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 53
       },
       __self: this
     }, __jsx(react_text_loop__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -2392,31 +2401,31 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       mask: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 54
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 59
       },
       __self: this
     }, "Full-stack Web Development"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 60
       },
       __self: this
     }, "Software Engineering"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 61
       },
       __self: this
     }, "Big Data"), __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 62
       },
       __self: this
     }, "Artificial Intelligence"))))))));
@@ -2473,7 +2482,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

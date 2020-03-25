@@ -10751,71 +10751,80 @@ var Index = /*#__PURE__*/function (_react$Component) {
           lineNumber: 31
         },
         __self: this
+      }), __jsx("meta", {
+        name: "google-site-verification",
+        content: "-RqGQnryBd7gPTbO6HbslKWuygGBDPJ4pnZpSs0KjbA",
+        key: "google-site-verification",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
       })), __jsx("section", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 41
         },
         __self: this
       }, __jsx("div", {
         className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.landing,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 42
         },
         __self: this
       }, __jsx("div", {
         className: classnames__WEBPACK_IMPORTED_MODULE_8___default()('fallback', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.Herofallback),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 44
         },
         __self: this
       }, __jsx("div", {
         className: classnames__WEBPACK_IMPORTED_MODULE_8___default()('hero', _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.IndexHero),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 45
         },
         __self: this
       })), __jsx("div", {
         className: classnames__WEBPACK_IMPORTED_MODULE_8___default()(_styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.textContainer, _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.appear),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 47
         },
         __self: this
       }, __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 48
         },
         __self: this
       }, __jsx("h4", {
         className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.Welcome,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 49
         },
         __self: this
       }, "Welcome to My World")), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 51
         },
         __self: this
       }, __jsx("h4", {
         className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.Name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 52
         },
         __self: this
       }, "Asyrul Hafetzy Ahmad"), __jsx("h5", {
         className: _styles_index_module_scss__WEBPACK_IMPORTED_MODULE_11___default.a.Job,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 53
         },
         __self: this
       }, __jsx(react_text_loop__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -10824,31 +10833,31 @@ var Index = /*#__PURE__*/function (_react$Component) {
         mask: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 54
         },
         __self: this
       }, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 59
         },
         __self: this
       }, "Full-stack Web Development"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 60
         },
         __self: this
       }, "Software Engineering"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 61
         },
         __self: this
       }, "Big Data"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 62
         },
         __self: this
       }, "Artificial Intelligence"))))))));
@@ -10885,7 +10894,7 @@ var Index = /*#__PURE__*/function (_react$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************************************************************************/
@@ -10908,5 +10917,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

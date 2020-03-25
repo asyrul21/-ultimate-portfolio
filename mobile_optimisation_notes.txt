@@ -1,6 +1,6 @@
 
 
-Use max-widths 420 -> 770
+Use max-widths 420 -> 770 -> 820
 
 
   @media screen and (max-width: 420px) {
@@ -17,3 +17,4 @@ Use max-widths 420 -> 770
 
   420 - covers most phones
   770 covers most tablets
+  825 covers phones in landscape
