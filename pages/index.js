@@ -33,6 +33,10 @@ class Index extends react.Component {
                         content="This is the landing page of Asyrul Hafetzy's portfolio website. The website is designed to showcase Asyrul Hafetzy's expertise in several areas in Computer Science, such as Software Engineering, Big Data, Artificial Intelligence, and Full-stack web development."
                         key="description"
                     />
+                    <meta
+                        name="google-site-verification" content="-RqGQnryBd7gPTbO6HbslKWuygGBDPJ4pnZpSs0KjbA"
+                        key="google-site-verification"
+                    />
                 </Head>
                 <section>
                     <div className={indexStyles.landing}
