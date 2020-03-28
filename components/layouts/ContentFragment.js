@@ -9,7 +9,7 @@ const ContentFragment = (props) => {
         <react.Fragment>
             {props.title &&
                 <div className={contentFragmentStyles.fragmentHeader}>
-                    {props.title}{' '}<span className={contentFragmentStyles.time}>({props.time})</span>
+                    {props.title}{' '}{props.time && <span className={contentFragmentStyles.time}>({props.time})</span>}
                 </div>
             }
             {props.link &&
@@ -22,11 +22,6 @@ const ContentFragment = (props) => {
                     <h5>{props.subtitle}</h5>
                 </div>
             }
-            {/* {props.time &&
-                <div className={contentFragmentStyles.time}>
-                    {props.time}
-                </div>
-            } */}
             <div className={contentFragmentStyles.text}>
                 {props.text}
             </div>
@@ -53,3 +48,9 @@ const ContentFragment = (props) => {
 }
 
 export default ContentFragment;
+
+{/* {props.time &&
+<div className={contentFragmentStyles.time}>
+    {props.time}
+</div>
+} */}

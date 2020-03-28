@@ -2,11 +2,7 @@ import react from 'react'
 
 //import layout
 import ContentFragment from '../layouts/ContentFragment'
-
 import cx from 'classnames'
-
-//import style
-// import rpiStyles from './rpi.module.scss'
 
 const ItemTransform = (props) => {
     const item = props.data
@@ -17,8 +13,9 @@ const ItemTransform = (props) => {
 
                 {/* Photos */}
                 <div className="row">
-                    <div className={cx("rowPhoto", "intro1")}></div>
-                    <div className={cx("rowPhoto", "intro2")}></div>
+                    <div className={cx("rowPhotoPortrait", "intro1")}></div>
+                    <div className={cx("rowPhotoPortrait", "intro1")}></div>
+                    <div className={cx("rowPhotoLandscape", "intro2")}></div>
                 </div>
             </ContentFragment>
 
@@ -27,10 +24,10 @@ const ItemTransform = (props) => {
 
                 {/* Photos */}
                 <div className="row">
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
                 </div>
             </ContentFragment>
 
@@ -39,16 +36,16 @@ const ItemTransform = (props) => {
 
                 {/* Photos */}
                 <div className="row">
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
                 </div>
                 <div className="row">
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
                 </div>
             </ContentFragment>
 
@@ -57,9 +54,9 @@ const ItemTransform = (props) => {
 
                 {/* Photos */}
                 <div className="row">
-                    <div className={cx("rowPhoto", "main1")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
-                    <div className={cx("rowPhoto", "main2")}></div>
+                    <div className={cx("rowPhotoLandscape", "main1")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
+                    <div className={cx("rowPhotoPortrait", "main2")}></div>
                 </div>
             </ContentFragment>
 
@@ -73,22 +70,18 @@ const ItemTransform = (props) => {
             </ContentFragment>
             <style jsx>{`
                 .intro1 {
-                    flex: 0.18;
                     background-image: url('/static/images/fitness/achievements/transformation/intro1.png');
                 }
 
                 .intro2 {
-                    flex: 0.80;
                     background-image: url('/static/images/fitness/achievements/transformation/intro2.png');
                 }
 
                 .main1 {
-                    flex: 0.56;
                     background-image: url('/static/images/fitness/achievements/transformation/main1.png');
                 }
 
                 .main2 {
-                    flex: 0.20;
                     background-image: url('/static/images/fitness/achievements/transformation/main2.png');
                 }
 

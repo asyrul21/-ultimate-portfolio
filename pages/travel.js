@@ -21,6 +21,9 @@ import fitnessData from '../public/static/data/fitness.json'
 //React Reveal Animation
 import Fade from 'react-reveal/Fade';
 
+// import data
+import travelData from '../public/static/data/travel.json'
+
 class Travel extends react.Component {
     render() {
         return (
@@ -34,7 +37,7 @@ class Travel extends react.Component {
                                 <ContentHead data={contentHeadData.travel} />
                             </Fade>
                             <Fade delay={200}>
-                                <BoxCategories />
+                                <BoxCategories data={travelData} />
                             </Fade>
 
                         </ContentContainer>

@@ -17,15 +17,14 @@ class Header extends react.Component {
                     <div className={headerStyles.Logo}>
                         <Link href="/"><a></a></Link>
                     </div>
-                    {/* <Link href="/"><a><div className={headerStyles.Logo}></div></a></Link> */}
-                    {/* <Link href="/"><a className={headerStyles.innerLogo}></a></Link> */}
 
                     <div className={headerStyles.navItems}>
                         <Link href="/about"><a>About</a></Link>
                         <Link href="/projects"><a>Projects</a></Link>
+                        <Link href="/fitness"><a>Fitness</a></Link>
+                        <Link href="/travel"><a>Travel</a></Link>
                     </div>
-                    {/* <Link href="/fitness"><a>Fitness</a></Link>
-                    <Link href="/travel"><a>Travel</a></Link>
+                    {/* 
                     <Link href="/blogs"><a>Blogs</a></Link>
                     <Link href="/about"><a>About</a></Link>
                     <Link href="/projects"><a>Projects</a></Link>
