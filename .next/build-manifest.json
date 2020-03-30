@@ -22,35 +22,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/fitness": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
     "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/projects": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
     "/travel": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
-    "/travel/krabi": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
-    "/travel/melaka": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

@@ -30,7 +30,7 @@ module.exports = {"categoriesContainer":"_2pE3dNd640nyWL_Wmb1yEl","box":"_37ph8-
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585607368579");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585607674656");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"title":"_1qJqvjFdArUczCb9Hw-xG1","quote":"_3cUM3i_ShnS59iohtQ
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585607368577");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585607674653");
           });
       }
     }
@@ -106,7 +106,7 @@ module.exports = {"footer":"_1G6KdEe68Bq9lOdDzSEFsk","socmedContainer":"_11GuFna
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585607368842");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585607674910");
           });
       }
     }
@@ -144,7 +144,7 @@ module.exports = {"navBar":"_3Ynq13K6dJwDv9xNY-P6Vq","Logo":"_16xJ6Gr4E3Ez3WL9Q2
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585607368810");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585607674874");
           });
       }
     }
@@ -153,4 +153,4 @@ module.exports = {"navBar":"_3Ynq13K6dJwDv9xNY-P6Vq","Logo":"_16xJ6Gr4E3Ez3WL9Q2
 /***/ })
 
 })
-//# sourceMappingURL=styles.8226933d4af2b679eaa8.hot-update.js.map
+//# sourceMappingURL=styles.cc18d1658e1f2152acb7.hot-update.js.map

@@ -8974,7 +8974,7 @@ module.exports = JSON.parse("{\"travel\":{\"slugs\":[{\"key\":\"krabi\",\"destin
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!****************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftravel&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel.js ***!
   \****************************************************************************************************************************************************************************************************/
@@ -8997,5 +8997,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=travel.js.map
