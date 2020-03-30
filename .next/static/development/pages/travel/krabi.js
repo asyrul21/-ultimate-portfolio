@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/travel/melaka.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/travel/krabi.js"],{
 
 /***/ "./components/layouts/BaseLayout.js":
 /*!******************************************!*\
@@ -1774,21 +1774,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js!./":
-/*!******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js ***!
-  \******************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fkrabi&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fkrabi.js!./":
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fkrabi&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fkrabi.js ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/travel/melaka", function() {
-      var mod = __webpack_require__(/*! ./pages/travel/melaka.js */ "./pages/travel/melaka.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/travel/krabi", function() {
+      var mod = __webpack_require__(/*! ./pages/travel/krabi.js */ "./pages/travel/krabi.js")
       if(true) {
-        module.hot.accept(/*! ./pages/travel/melaka.js */ "./pages/travel/melaka.js", function() {
-          if(!next.router.components["/travel/melaka"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/travel/melaka.js */ "./pages/travel/melaka.js")
-          next.router.update("/travel/melaka", updatedPage)
+        module.hot.accept(/*! ./pages/travel/krabi.js */ "./pages/travel/krabi.js", function() {
+          if(!next.router.components["/travel/krabi"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/travel/krabi.js */ "./pages/travel/krabi.js")
+          next.router.update("/travel/krabi", updatedPage)
         })
       }
       return mod
@@ -9443,10 +9443,10 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 /***/ }),
 
-/***/ "./pages/travel/melaka.js":
-/*!********************************!*\
-  !*** ./pages/travel/melaka.js ***!
-  \********************************/
+/***/ "./pages/travel/krabi.js":
+/*!*******************************!*\
+  !*** ./pages/travel/krabi.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9468,8 +9468,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/layouts/ContentFragment */ "./components/layouts/ContentFragment.js");
 /* harmony import */ var _components_layouts_ContentContainer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/layouts/ContentContainer */ "./components/layouts/ContentContainer.js");
 /* harmony import */ var _components_layouts_TravelLayout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/layouts/TravelLayout */ "./components/layouts/TravelLayout.js");
-/* harmony import */ var _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../public/static/data/TravelDestinations/melaka */ "./public/static/data/TravelDestinations/melaka.json");
-var _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/data/TravelDestinations/melaka */ "./public/static/data/TravelDestinations/melaka.json", 1);
+/* harmony import */ var _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../public/static/data/TravelDestinations/krabi */ "./public/static/data/TravelDestinations/krabi.json");
+var _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/data/TravelDestinations/krabi */ "./public/static/data/TravelDestinations/krabi.json", 1);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-reveal/Fade */ "./node_modules/react-reveal/Fade.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13__);
 
@@ -9477,7 +9477,7 @@ var _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12___
 
 
 
-var _jsxFileName = "/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/pages/travel/melaka.js";
+var _jsxFileName = "/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/pages/travel/krabi.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
@@ -9493,16 +9493,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
 
-var Melaka = /*#__PURE__*/function (_react$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Melaka, _react$Component);
+var Krabi = /*#__PURE__*/function (_react$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Krabi, _react$Component);
 
-  function Melaka() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Melaka);
+  function Krabi() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Krabi);
 
-    return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Melaka).apply(this, arguments));
+    return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Krabi).apply(this, arguments));
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Melaka, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Krabi, [{
     key: "render",
     value: function render() {
       return __jsx(_components_layouts_TravelLayout__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -9518,9 +9518,9 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         },
         __self: this
       }, __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        title: "".concat(_public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.destination, ", ").concat(_public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.country),
-        time: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.time,
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.intro,
+        title: "".concat(_public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.destination, ", ").concat(_public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.country),
+        time: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.time,
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.intro,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
@@ -9533,28 +9533,28 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "intro1") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "intro1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "intro2") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "intro2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "intro1") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "intro1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
@@ -9562,7 +9562,7 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         __self: this
       })))), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
         subtitle: "Transport",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.transport,
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.transport,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
@@ -9575,21 +9575,21 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
@@ -9597,7 +9597,7 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         __self: this
       })))), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
         subtitle: "Hotel",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.accommodation,
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.accommodation,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
@@ -9610,28 +9610,28 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
@@ -9639,265 +9639,257 @@ var Melaka = /*#__PURE__*/function (_react$Component) {
         __self: this
       })))), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
         subtitle: "Day 1",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.day1,
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.day1,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 55
         },
         __self: this
-      }), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        subtitle: "Day 2",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.day1,
+      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58
         },
         __self: this
-      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default.a, {
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+      })), __jsx("div", {
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
         },
         __self: this
-      })), __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
       })))), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        subtitle: "Day 3",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.day2,
+        subtitle: "Day 2",
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.day2,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        },
+        __self: this
+      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75
         },
         __self: this
-      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default.a, {
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 77
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 78
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+      })), __jsx("div", {
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81
         },
         __self: this
-      })), __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
       })))), __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
         subtitle: "Final Thoughts",
-        text: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.conclusion,
+        text: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.conclusion,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 87
         },
         __self: this
       }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_13___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 90
         },
         __self: this
       }, __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+        className: "jsx-2959048836" + " " + "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 94
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+      })), __jsx("div", {
+        className: "jsx-2959048836" + " " + "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
         },
         __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
+      }, __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 97
         },
         __self: this
-      })), __jsx("div", {
-        className: "jsx-1820393422" + " " + "row",
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "jsx-2959048836" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 99
         },
         __self: this
-      }, __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoPortrait", "main2") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }), __jsx("div", {
-        className: "jsx-1820393422" + " " + (classnames__WEBPACK_IMPORTED_MODULE_7___default()("rowPhotoLandscape", "main1") || ""),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      })))), _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.videos && __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      })))), _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.videos && __jsx(_components_layouts_ContentFragment__WEBPACK_IMPORTED_MODULE_9__["default"], {
         subtitle: "Videos",
         text: "We recorded some videos:",
         type: "links",
-        links: _public_static_data_TravelDestinations_melaka__WEBPACK_IMPORTED_MODULE_12__.videos,
+        links: _public_static_data_TravelDestinations_krabi__WEBPACK_IMPORTED_MODULE_12__.videos,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 105
         },
         __self: this
       })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "1820393422",
+        id: "2959048836",
         __self: this
-      }, ".intro1.jsx-1820393422{background-image:url('/static/images/travel/melaka/intro1.png');}.intro2.jsx-1820393422{background-image:url('/static/images/travel/melaka/intro2.png');}.main1.jsx-1820393422{background-image:url('/static/images/travel/melaka/main1.png');}.main2.jsx-1820393422{background-image:url('/static/images/travel/melaka/main2.png');}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvcGFnZXMvdHJhdmVsL21lbGFrYS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpSDRCLEFBR3lGLEFBSUEsQUFJRCxBQUlBLCtEQUhuRSxBQUlBLENBWkEsQUFJQSIsImZpbGUiOiIvVXNlcnMvYXN5cnVsaGFmZXR6eS9Eb2N1bWVudHMvQ1NEZXZlbG9wbWVudC9XZWIvbXlVbHRpbWF0ZVBvcnRmb2xpby91bHRpbWF0ZXBvcnRmb2xpby1uZXh0L3BhZ2VzL3RyYXZlbC9tZWxha2EuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgcmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IGN4IGZyb20gJ2NsYXNzbmFtZXMnXG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5cbi8vIGltcG9ydCBsYXlvdXRzXG5pbXBvcnQgQ29udGVudEZyYWdtZW50IGZyb20gJy4uLy4uL2NvbXBvbmVudHMvbGF5b3V0cy9Db250ZW50RnJhZ21lbnQnXG5pbXBvcnQgQ29udGVudENvbnRhaW5lciBmcm9tICcuLi8uLi9jb21wb25lbnRzL2xheW91dHMvQ29udGVudENvbnRhaW5lcidcbmltcG9ydCBUcmF2ZWxMYXlvdXQgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9sYXlvdXRzL1RyYXZlbExheW91dCdcblxuLy9pbXBvcnQgZGF0YVxuaW1wb3J0IGRhdGEgZnJvbSAnLi4vLi4vcHVibGljL3N0YXRpYy9kYXRhL1RyYXZlbERlc3RpbmF0aW9ucy9tZWxha2EnXG5cbi8vUmVhY3QgUmV2ZWFsIEFuaW1hdGlvblxuaW1wb3J0IEZhZGUgZnJvbSAncmVhY3QtcmV2ZWFsL0ZhZGUnO1xuXG5jbGFzcyBNZWxha2EgZXh0ZW5kcyByZWFjdC5Db21wb25lbnQge1xuXG4gICAgcmVuZGVyKCkge1xuICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgPFRyYXZlbExheW91dD5cbiAgICAgICAgICAgICAgICA8Q29udGVudENvbnRhaW5lcj5cbiAgICAgICAgICAgICAgICAgICAgey8qIEluc2VydCBGcmFnbWVudHMgSGVyZSAqL31cbiAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCB0aXRsZT17YCR7ZGF0YS5kZXN0aW5hdGlvbn0sICR7ZGF0YS5jb3VudHJ5fWB9XG4gICAgICAgICAgICAgICAgICAgICAgICB0aW1lPXtkYXRhLnRpbWV9IHRleHQ9e2RhdGEuaW50cm99PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwiaW50cm8xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9MYW5kc2NhcGVcIiwgXCJpbnRybzJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwiaW50cm8xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJUcmFuc3BvcnRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD17ZGF0YS50cmFuc3BvcnR9PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9MYW5kc2NhcGVcIiwgXCJtYWluMVwiKX0+PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L0ZhZGU+XG4gICAgICAgICAgICAgICAgICAgIDwvQ29udGVudEZyYWdtZW50PlxuICAgICAgICAgICAgICAgICAgICA8Q29udGVudEZyYWdtZW50IHN1YnRpdGxlPVwiSG90ZWxcIlxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD17ZGF0YS5hY2NvbW1vZGF0aW9ufT5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPEZhZGU+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9MYW5kc2NhcGVcIiwgXCJtYWluMVwiKX0+PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L0ZhZGU+XG4gICAgICAgICAgICAgICAgICAgIDwvQ29udGVudEZyYWdtZW50PlxuICAgICAgICAgICAgICAgICAgICA8Q29udGVudEZyYWdtZW50IHN1YnRpdGxlPVwiRGF5IDFcIlxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD17ZGF0YS5kYXkxfT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJEYXkgMlwiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLmRheTF9PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cblxuICAgICAgICAgICAgICAgICAgICA8L0NvbnRlbnRGcmFnbWVudD5cbiAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCBzdWJ0aXRsZT1cIkRheSAzXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQ9e2RhdGEuZGF5Mn0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJGaW5hbCBUaG91Z2h0c1wiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLmNvbmNsdXNpb259PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIHsvKiBPcHRpb25hbCBpZiB5b3UgaGF2ZSB2aWRlb3MgKi99XG4gICAgICAgICAgICAgICAgICAgIHtkYXRhLnZpZGVvcyAmJlxuICAgICAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCBzdWJ0aXRsZT1cIlZpZGVvc1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD1cIldlIHJlY29yZGVkIHNvbWUgdmlkZW9zOlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1cImxpbmtzXCIgbGlua3M9e2RhdGEudmlkZW9zfT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvQ29udGVudEZyYWdtZW50PlxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgPC9Db250ZW50Q29udGFpbmVyPlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAgICAgIC5pbnRybzEge1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2ltYWdlcy90cmF2ZWwvbWVsYWthL2ludHJvMS5wbmcnKTtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgIFxuICAgICAgICAgICAgICAgICAgICAuaW50cm8yIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnL3N0YXRpYy9pbWFnZXMvdHJhdmVsL21lbGFrYS9pbnRybzIucG5nJyk7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAubWFpbjEge1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2ltYWdlcy90cmF2ZWwvbWVsYWthL21haW4xLnBuZycpO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgXG4gICAgICAgICAgICAgICAgICAgIC5tYWluMiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy9zdGF0aWMvaW1hZ2VzL3RyYXZlbC9tZWxha2EvbWFpbjIucG5nJyk7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgICAgICA8L1RyYXZlbExheW91dD5cbiAgICAgICAgKVxuICAgIH1cbn1cbmV4cG9ydCBkZWZhdWx0IE1lbGFrYTsiXX0= */\n/*@ sourceURL=/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/pages/travel/melaka.js */"));
+      }, ".intro1.jsx-2959048836{background-image:url('/static/images/travel/krabi/intro1.png');}.intro2.jsx-2959048836{background-image:url('/static/images/travel/krabi/intro2.png');}.main1.jsx-2959048836{background-image:url('/static/images/travel/krabi/main1.png');}.main2.jsx-2959048836{background-image:url('/static/images/travel/krabi/main2.png');}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvcGFnZXMvdHJhdmVsL2tyYWJpLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThHNEIsQUFHd0YsQUFJQSxBQUlELEFBSUEsOERBSGxFLEFBSUEsQ0FaQSxBQUlBIiwiZmlsZSI6Ii9Vc2Vycy9hc3lydWxoYWZldHp5L0RvY3VtZW50cy9DU0RldmVsb3BtZW50L1dlYi9teVVsdGltYXRlUG9ydGZvbGlvL3VsdGltYXRlcG9ydGZvbGlvLW5leHQvcGFnZXMvdHJhdmVsL2tyYWJpLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBjeCBmcm9tICdjbGFzc25hbWVzJ1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuXG4vLyBpbXBvcnQgbGF5b3V0c1xuaW1wb3J0IENvbnRlbnRGcmFnbWVudCBmcm9tICcuLi8uLi9jb21wb25lbnRzL2xheW91dHMvQ29udGVudEZyYWdtZW50J1xuaW1wb3J0IENvbnRlbnRDb250YWluZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9sYXlvdXRzL0NvbnRlbnRDb250YWluZXInXG5pbXBvcnQgVHJhdmVsTGF5b3V0IGZyb20gJy4uLy4uL2NvbXBvbmVudHMvbGF5b3V0cy9UcmF2ZWxMYXlvdXQnXG5cbi8vaW1wb3J0IGRhdGFcbmltcG9ydCBkYXRhIGZyb20gJy4uLy4uL3B1YmxpYy9zdGF0aWMvZGF0YS9UcmF2ZWxEZXN0aW5hdGlvbnMva3JhYmknXG5cbi8vUmVhY3QgUmV2ZWFsIEFuaW1hdGlvblxuaW1wb3J0IEZhZGUgZnJvbSAncmVhY3QtcmV2ZWFsL0ZhZGUnO1xuXG5jbGFzcyBLcmFiaSBleHRlbmRzIHJlYWN0LkNvbXBvbmVudCB7XG5cbiAgICByZW5kZXIoKSB7XG4gICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICA8VHJhdmVsTGF5b3V0PlxuICAgICAgICAgICAgICAgIDxDb250ZW50Q29udGFpbmVyPlxuICAgICAgICAgICAgICAgICAgICB7LyogSW5zZXJ0IEZyYWdtZW50cyBIZXJlICovfVxuICAgICAgICAgICAgICAgICAgICA8Q29udGVudEZyYWdtZW50IHRpdGxlPXtgJHtkYXRhLmRlc3RpbmF0aW9ufSwgJHtkYXRhLmNvdW50cnl9YH1cbiAgICAgICAgICAgICAgICAgICAgICAgIHRpbWU9e2RhdGEudGltZX0gdGV4dD17ZGF0YS5pbnRyb30+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxGYWRlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtjeChcInJvd1Bob3RvUG9ydHJhaXRcIiwgXCJpbnRybzFcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcImludHJvMlwiKX0+PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtjeChcInJvd1Bob3RvUG9ydHJhaXRcIiwgXCJpbnRybzFcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9GYWRlPlxuICAgICAgICAgICAgICAgICAgICA8L0NvbnRlbnRGcmFnbWVudD5cbiAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCBzdWJ0aXRsZT1cIlRyYW5zcG9ydFwiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLnRyYW5zcG9ydH0+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxGYWRlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtjeChcInJvd1Bob3RvTGFuZHNjYXBlXCIsIFwibWFpbjFcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJIb3RlbFwiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLmFjY29tbW9kYXRpb259PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJEYXkgMVwiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLmRheTF9PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cblxuICAgICAgICAgICAgICAgICAgICA8L0NvbnRlbnRGcmFnbWVudD5cbiAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCBzdWJ0aXRsZT1cIkRheSAyXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQ9e2RhdGEuZGF5Mn0+XG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2N4KFwicm93UGhvdG9Qb3J0cmFpdFwiLCBcIm1haW4yXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIDxDb250ZW50RnJhZ21lbnQgc3VidGl0bGU9XCJGaW5hbCBUaG91Z2h0c1wiXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXtkYXRhLmNvbmNsdXNpb259PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8RmFkZT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b1BvcnRyYWl0XCIsIFwibWFpbjJcIil9PjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17Y3goXCJyb3dQaG90b0xhbmRzY2FwZVwiLCBcIm1haW4xXCIpfT48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvRmFkZT5cbiAgICAgICAgICAgICAgICAgICAgPC9Db250ZW50RnJhZ21lbnQ+XG4gICAgICAgICAgICAgICAgICAgIHsvKiBPcHRpb25hbCBpZiB5b3UgaGF2ZSB2aWRlb3MgKi99XG4gICAgICAgICAgICAgICAgICAgIHtkYXRhLnZpZGVvcyAmJlxuICAgICAgICAgICAgICAgICAgICAgICAgPENvbnRlbnRGcmFnbWVudCBzdWJ0aXRsZT1cIlZpZGVvc1wiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dD1cIldlIHJlY29yZGVkIHNvbWUgdmlkZW9zOlwiXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT1cImxpbmtzXCIgbGlua3M9e2RhdGEudmlkZW9zfT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvQ29udGVudEZyYWdtZW50PlxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgPC9Db250ZW50Q29udGFpbmVyPlxuICAgICAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgICAgICAgICAgIC5pbnRybzEge1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2ltYWdlcy90cmF2ZWwva3JhYmkvaW50cm8xLnBuZycpO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgXG4gICAgICAgICAgICAgICAgICAgIC5pbnRybzIge1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcvc3RhdGljL2ltYWdlcy90cmF2ZWwva3JhYmkvaW50cm8yLnBuZycpO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLm1haW4xIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnL3N0YXRpYy9pbWFnZXMvdHJhdmVsL2tyYWJpL21haW4xLnBuZycpO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgXG4gICAgICAgICAgICAgICAgICAgIC5tYWluMiB7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy9zdGF0aWMvaW1hZ2VzL3RyYXZlbC9rcmFiaS9tYWluMi5wbmcnKTtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgICAgICAgIDwvVHJhdmVsTGF5b3V0PlxuICAgICAgICApXG4gICAgfVxufVxuZXhwb3J0IGRlZmF1bHQgS3JhYmk7Il19 */\n/*@ sourceURL=/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/pages/travel/krabi.js */"));
     }
   }]);
 
-  return Melaka;
+  return Krabi;
 }(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Melaka);
+/* harmony default export */ __webpack_exports__["default"] = (Krabi);
 
 /***/ }),
 
-/***/ "./public/static/data/TravelDestinations/melaka.json":
-/*!***********************************************************!*\
-  !*** ./public/static/data/TravelDestinations/melaka.json ***!
-  \***********************************************************/
+/***/ "./public/static/data/TravelDestinations/krabi.json":
+/*!**********************************************************!*\
+  !*** ./public/static/data/TravelDestinations/krabi.json ***!
+  \**********************************************************/
 /*! exports provided: destination, country, time, intro, transport, accommodation, day1, day2, conclusion, videos, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"destination\":\"The Historical City of Malacca\",\"country\":\"Malaysia\",\"time\":\"March 2019\",\"intro\":\"This was part of my Bachelor degree's Final Year Project (FYP), which I spent over six months to complete. The project was well out of my degree's syllabus scope, as it covered various concepts such as multi-threading, parallel-processing, electrical signals and Single Board Computers. I developed two main programs; the G-Code Interpreter, and the Interpolation program. These two programs work together to drive an industry-grade Computerised Numerical Control (CNC) machine, which was connected to the Raspberry Pi's pins. \",\"transport\":\"We went by fllight Malaysian Airlines. it was good nice food. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"accommodation\":\"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"day1\":\"A digital image is first converted into a G-Code using a Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) softwares. I would then execute the G-code Interpreter that reads this G-Code file and translate it into a signal file, which is basically a file containing numbers. The Interpolation Program then takes this signal file to produce electrical pulses that drives the CNC machine to move a pen attached to it and draw the digital image on a piece of paper.\",\"day2\":\"The execution of this project exposed me to an great amount of linux commands, since Raspberry Pi runs the Raspbian OS, which is based on Linux. I also did all developments on a seperate machine running Linux Debian. Development-wise, the two programs were written heavily in C++/C++11. Parallel processing and multi-threading had to be implemented as signals need to be generated concurrently to the CNC machine's servo motors. I was also exposed to various Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) softwares, such as AutoCAD and PyCAM respectively.\",\"conclusion\":\"The end product of this project opened my eyes to the power of Software Engineering, as those two programs I wrote actually drove the CNC machine to draw images on a piece of paper. Some mathematics was involved as well, hence I was very happy and blown away to see those numbers work together to produce real results. The full report/thesis for this project is available upon request.\",\"videos\":[\"https://youtu.be/g23uujAncgg\",\"https://www.youtube.com/watch?v=-OESBTYBT0A\",\"https://youtu.be/4s94wy6ZGJE\"]}");
+module.exports = JSON.parse("{\"destination\":\"Krabi\",\"country\":\"Thailand\",\"time\":\"November 2018\",\"intro\":\"This was part of my Bachelor degree's Final Year Project (FYP), which I spent over six months to complete. The project was well out of my degree's syllabus scope, as it covered various concepts such as multi-threading, parallel-processing, electrical signals and Single Board Computers. I developed two main programs; the G-Code Interpreter, and the Interpolation program. These two programs work together to drive an industry-grade Computerised Numerical Control (CNC) machine, which was connected to the Raspberry Pi's pins. \",\"transport\":\"We went by fllight Malaysian Airlines. it was good nice food. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"accommodation\":\"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the\",\"day1\":\"A digital image is first converted into a G-Code using a Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) softwares. I would then execute the G-code Interpreter that reads this G-Code file and translate it into a signal file, which is basically a file containing numbers. The Interpolation Program then takes this signal file to produce electrical pulses that drives the CNC machine to move a pen attached to it and draw the digital image on a piece of paper.\",\"day2\":\"The execution of this project exposed me to an great amount of linux commands, since Raspberry Pi runs the Raspbian OS, which is based on Linux. I also did all developments on a seperate machine running Linux Debian. Development-wise, the two programs were written heavily in C++/C++11. Parallel processing and multi-threading had to be implemented as signals need to be generated concurrently to the CNC machine's servo motors. I was also exposed to various Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM) softwares, such as AutoCAD and PyCAM respectively.\",\"conclusion\":\"The end product of this project opened my eyes to the power of Software Engineering, as those two programs I wrote actually drove the CNC machine to draw images on a piece of paper. Some mathematics was involved as well, hence I was very happy and blown away to see those numbers work together to produce real results. The full report/thesis for this project is available upon request.\",\"videos\":[\"https://youtu.be/g23uujAncgg\",\"https://www.youtube.com/watch?v=-OESBTYBT0A\",\"https://youtu.be/4s94wy6ZGJE\"]}");
 
 /***/ }),
 
-/***/ 10:
-/*!**********************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js ***!
-  \**********************************************************************************************************************************************************************************************************************/
+/***/ 8:
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Ftravel%2Fkrabi&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fkrabi.js ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Ftravel%2Fkrabi&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fkrabi.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Ftravel%2Fkrabi&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fkrabi.js!./");
 
 
 /***/ }),
@@ -9913,5 +9905,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=melaka.js.map
+},[[8,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=krabi.js.map
