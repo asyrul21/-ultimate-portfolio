@@ -223,8 +223,32 @@ git push heroku master
 ## Main Reference:
 https://blog.hartleybrody.com/how-i-mobile-optimized-my-website-in-5-minutes/
 
+## Media Queries notes
+Use max-widths 420 -> 770 -> 820
+
+```CSS
+  @media screen and (max-width: 420px) {
+    .hexagonContainer{
+        width: 88px;
+        height: 88px;
+    }
+
+    img {    
+        width: 45px;
+        height: 45px;
+    }
+  }
+```
+- 360 - covers old phones like iPhone 5/SE
+
+- 420 - covers most phones
+
+- 770 - covers most tablets
+
+- 825 - covers phones in landscape
+
 <!-- ===================== -->
-## Domains
+# Domains
 <!-- ===================== -->
 1. Buy Domain (eg. Go Daddy)
 2. run heroku domains
@@ -249,7 +273,7 @@ https://blog.hartleybrody.com/how-i-mobile-optimized-my-website-in-5-minutes/
 # Optimisation
 
 <!-- ===================== -->
-## Next Optimised Images - Did not get to get it work
+## Next Optimised Images - *DID NOT WORK*
 <!-- ===================== -->
 1. Install
 ```
@@ -285,7 +309,7 @@ module.exports = withPlugins([
 
 
 <!-- ===================== -->
-# Image Optimisations
+# Image Optimisations - *USE THIS INSTEAD*
 <!-- ===================== -->
 1. Create mobile versions of images - make them smaller
 2. Convert images to webp
