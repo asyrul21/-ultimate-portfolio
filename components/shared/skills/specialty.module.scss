@@ -2,22 +2,23 @@
     // border: 2px solid black;
 
     width: 170px;
-    height: 200px;
+    height: 180px;
 
     margin: 0;
 }
 
-p {
-    margin-top: 5px;
+p.title, p.sub {
+    line-height: 1;
+    text-align: center;
 }
 
 .title {
-    font-weight: 500;
-    font-size: 14px;
+    margin-top: 10px;
+    // margin-bottom: 10px;
 }
 
 .sub {
-    font-weight: lighter;
+    // font-weight: lighter;
     font-size: 14px;
 }
 

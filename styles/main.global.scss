@@ -20,6 +20,12 @@ a {
     color: #2E7BC1;
 }
 
+p {  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
 
 :global {
     .hero {
@@ -38,16 +44,10 @@ a {
         // z-index: -1;
     }
 
-    section {
-        width: 100%;
-        margin-bottom: 90px;
-    }
-
     .contentContainer {
         max-width: 800px;
         margin: 90px auto;
-        // border: green solid 2px;
-    
+        // border: green solid 2px; 
         height: auto;
     }
 
@@ -187,3 +187,7 @@ a {
     }
 }
 
+// section {
+//     // width: 100%;
+//     // margin-bottom: 90px;
+// }

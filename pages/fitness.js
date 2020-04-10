@@ -41,7 +41,6 @@ class Fitness extends react.Component {
     }
 
     render() {
-        console.log(this.state.activeTab)
         return (
             <ContentLayout>
                 <section>

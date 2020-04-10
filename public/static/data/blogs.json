@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "Why I Felt Like I Should Start Writing Blogs",
+            "author": "Asyrul Hafetzy",
+            "date": "November 2019",
+            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical"
+        },
+        {
+            "title": "Why Potatoes are not Tomatoes",
+            "author": "Asyrul Hafetzy",
+            "date": "November 2019",
+            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical"
+        },
+        {
+            "title": "Why you should always read the Quran",
+            "author": "Asyrul Hafetzy",
+            "date": "November 2019",
+            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical"
+        }
+    ]
+}

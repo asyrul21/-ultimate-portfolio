@@ -41,17 +41,12 @@
 
    z-index: 1;
 
+   opacity: 0;
+
    a {
        width: 100%;
        height: 100%;
    }
-}
-
-.innerLogo {
-    background: rgba(107, 92, 92, 0.54);
-    border: 2px solid white;
-    height: 80%;
-    width: 160px;
 }
 
 .navLinks {
@@ -66,7 +61,7 @@
 
 .navItems {
     // border: blue 3px solid;
-    width: 400px;
+    width: 600px;
 
     display: flex;
     justify-content: space-between;
@@ -74,20 +69,17 @@
 
     a {
         margin: 0;
+        opacity: 0;
     }
 }
 
-.navLinks a, .login a {
+.navLinks a, div.logo {
     color: inherit;
     text-decoration: inherit;
 
     //font
     font-size: 14px;
     font-weight: 500;
-}
-
-a, div.Logo {
-    opacity: 0;
 }
 
 //slidedown animation

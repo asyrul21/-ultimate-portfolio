@@ -17,12 +17,12 @@ const ContentHead = (props) => {
                 {props.data.author}
             </div>
             <div className={headStyles.text}>
-                {props.data.text}
+                <p>{props.data.text}</p>
             </div>
 
             {props.data.text2 &&
                 <div className={headStyles.text}>
-                    {props.data.text2}
+                    <p>{props.data.text2}</p>
                 </div>
             }
         </div>

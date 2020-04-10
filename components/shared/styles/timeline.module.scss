@@ -1,5 +1,5 @@
 .timelineContainer {
-    margin-top: 30px;
+    margin-top: 90px;
     // border: red solid 2px;
 }
 
@@ -14,14 +14,10 @@
     min-height: 100px;
 
     position: relative;
-
-    // div {
-    //     width: 100%;
-    // }
 }
 
 .title, .time, .text {
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 
 .title {
@@ -29,8 +25,8 @@
     font-size: 18px;
 }
 
-.time, .grade {
-    font-weight: lighter;
+.grade {
+    font-weight: 500;
     font-size: 14px;
 }
 

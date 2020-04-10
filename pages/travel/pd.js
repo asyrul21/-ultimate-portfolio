@@ -18,7 +18,7 @@ class PD extends react.Component {
     render() {
         return (
             <TravelLayout>
-                <ContentContainer>
+                <ContentContainer breadcrumbs={['Travel', 'PD']}>
                     {/* Insert Fragments Here */}
                     <ContentFragment title={`${data.destination}, ${data.country}`}
                         time={data.time} text={data.intro}>

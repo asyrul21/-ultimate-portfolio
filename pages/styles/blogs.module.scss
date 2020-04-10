@@ -1,0 +1,22 @@
+.loadmoreButton {
+    border: 1px grey solid;
+    width: 150px;
+    height: 30px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.9;
+
+    cursor: pointer;
+    background-color: #696969;
+    color: white;
+}
+
+.loadmoreButton:hover{
+    opacity: 1;
+}

@@ -48,6 +48,8 @@ https://webdevstudios.com/2019/01/03/headless-wordpress-with-react-and-nextjs-1/
 
 https://webdevstudios.com/2019/01/10/headless-wordpress-with-react-and-nextjs-2/
 
+https://whatjackhasmade.co.uk/dynamically-generating-pages-in-nextjs-using-wordpress
+
 
 ## For Social media shares
 https://www.npmjs.com/package/react-share
@@ -338,3 +340,51 @@ https://prismic.io/blog/seo-with-react-and-nextjs
 https://www.seomechanic.com/why-is-my-website-not-showing-in-google-search-results/
 
 https://www.advancedwebranking.com/blog/meta-tags-important-in-seo/
+
+
+<!-- ===================== -->
+# Implementation of Headless Wordpress
+<!-- ===================== -->
+Be sure to understand that wordpress.com and wordpress.org are two different entities.
+
+Thread created : https://wordpress.com/forums/topic/wordpress-api-returning-html/
+
+API structure for wordpress.com:
+
+https://public-api.wordpress.com/rest/v1.1/sites/(your domain name).wordpress.com/posts/
+
+Documentation can be found here:
+
+https://developer.wordpress.com/docs/api/
+
+https://developer.wordpress.com/docs/api/getting-started/
+
+https://developer.wordpress.com/docs/api/1.1/get/sites/%24site/posts/
+
+
+<!-- ===================== -->
+# Implementation of Back To Top
+<!-- ===================== -->
+## JQuery
+
+https://stackoverflow.com/questions/52214749/make-scroll-to-top-button-with-animation-in-react
+
+## Rendering button if document height is more than a specific value
+
+```javascript
+  {this.state.documentHeight > this.state.viewportHeight * 2 + padding &&
+      <BackToTop onClick={this.onClickToTop}></BackToTop>
+  }
+```
+
+## Got the document and viewport height as state
+
+```javascript
+  componentDidMount() {
+    // console.log(window.document.body.offsetHeight);
+    this.setState({
+      documentHeight: window.document.body.offsetHeight,
+      viewportHeight: document.documentElement.clientHeight
+    })
+  }
+```

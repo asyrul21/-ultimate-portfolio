@@ -30,7 +30,7 @@ const ProProjects = (props) => {
                 })}
             </div>
 
-            <p className={proprojectStyles.text}>{project.text}</p>
+            <p>{project.text}</p>
 
             <div className={proprojectStyles.attributes}>
                 <span>Role:</span>

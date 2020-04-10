@@ -11,12 +11,11 @@ const TravelLayout = (props) => {
                 {props.children}
             </ContentLayout>
             <style jsx>{`
-            .travelHero {
-                background-image: url('/static/images/hero/travel.png');
-                height: 600px;
-            }
-        `}</style>
-
+                .travelHero {
+                    background-image: url('/static/images/hero/travel.png');
+                    height: 600px;
+                }
+            `}</style>
         </react.Fragment>
     )
 }

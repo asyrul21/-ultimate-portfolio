@@ -10,7 +10,7 @@ const Specialty = (props) => {
             {/* <Hexagon src={props.src} /> */}
             <Hexagon style={props.style} />
             <p className={specialtyStyles.title}>{props.title}</p>
-            <p className={specialtyStyles.sub}>{props.sub}</p>
+            {/* <p className={specialtyStyles.sub}>{props.sub}</p> */}
         </div>
     )
 }

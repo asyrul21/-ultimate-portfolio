@@ -1,0 +1,45 @@
+.blogsHero{
+    background-image: url('/static/images/hero/blogs.png');
+    height: 600px;
+}
+
+.top, .bottom {
+    font-size: 20px;
+}
+
+.top{
+    margin-bottom: 18px;
+    color: #666;
+    font-weight: 600;
+}
+
+.header {
+    padding: 72px 0;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 18px;
+    font-size: 52px;
+}
+
+.entryContent {
+        font-weight: 500;
+        font-size: 14px;
+
+        // special slight diff of the p for
+        // reading blogs only
+        p{
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        figure{
+            margin: 45px auto;
+            text-align: center;
+
+            img {
+                margin-bottom: 15px;
+            }
+        }
+}

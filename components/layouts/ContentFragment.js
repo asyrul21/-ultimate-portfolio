@@ -2,7 +2,6 @@ import react from 'react'
 
 //import style
 import contentFragmentStyles from './contentFragment.module.scss'
-import ProjectRpi from '../projects/ProjectRpi';
 
 const ContentFragment = (props) => {
     return (
@@ -19,11 +18,11 @@ const ContentFragment = (props) => {
             }
             {props.subtitle &&
                 <div className={contentFragmentStyles.subHeader}>
-                    <h5>{props.subtitle}</h5>
+                    {props.subtitle}
                 </div>
             }
             <div className={contentFragmentStyles.text}>
-                {props.text}
+                <p>{props.text}</p>
             </div>
 
             {props.type === 'links' &&
@@ -48,9 +47,3 @@ const ContentFragment = (props) => {
 }
 
 export default ContentFragment;
-
-{/* {props.time &&
-<div className={contentFragmentStyles.time}>
-    {props.time}
-</div>
-} */}

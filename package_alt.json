@@ -60,3 +60,11 @@
   "slugify": "^1.4.0"
 }
 }
+// last version - WORKS without server.js
+"scripts": {
+"dev": "next",
+"build": "next build",
+"start": "next start -p $PORT",
+"heroku-postbuild": "npm run build",
+"test": "echo \"Error: no test specified\" && exit 1"
+}

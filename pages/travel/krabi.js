@@ -18,9 +18,9 @@ class Krabi extends react.Component {
     render() {
         return (
             <TravelLayout>
-                <ContentContainer>
+                <ContentContainer breadcrumbs={['Travel', 'Krabi']}>
                     {/* Insert Fragments Here */}
-                    <ContentFragment title={`${data.destination}, ${data.country}`}
+                    < ContentFragment title={`${data.destination}, ${data.country}`}
                         time={data.time} text={data.intro}>
 
                         <Fade>

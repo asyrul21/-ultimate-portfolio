@@ -20,12 +20,10 @@ const Timeline = (props) => {
                             {item.sub}
                         </div>
                         {item.title &&
-                            <div className={timelineStyles.time}>
-                                {"("}{item.time}{")"}
-                            </div>
+                            <p className={timelineStyles.time}>{"("}{item.time}{")"}</p>
                         }
                         <div className={timelineStyles.text}>
-                            {item.text}
+                            <p>{item.text}</p>
                         </div>
                         {(item.title && idx != (props.data.length - 1)) &&
                             <div align='left' className={timelineStyles.separator}></div>
