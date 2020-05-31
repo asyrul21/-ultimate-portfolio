@@ -1,0 +1,16 @@
+.box {
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    border: black solid 2px;
+    background: skyblue;
+    color: blue;
+    margin: 0;
+    // margin-top: 100px;
+    display: inline-block;
+    transition: margin ease 2s;
+}
+
+.box:hover{
+    margin-left: 500px;
+}

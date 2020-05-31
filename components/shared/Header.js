@@ -24,6 +24,7 @@ class Header extends react.Component {
                         <Link href="/fitness"><a>Fitness</a></Link>
                         <Link href="/travel"><a>Travel</a></Link>
                         <Link href="/blogs"><a>Blogs</a></Link>
+                        <Link href="/test"><a>Test</a></Link>
                     </div>
                     {/* 
                     <Link href="/blogs"><a>Blogs</a></Link>

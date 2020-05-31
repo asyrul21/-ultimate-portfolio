@@ -567,7 +567,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/asyrulhafetzy/Documents/CSDevelopment/Web/myUltimatePortfolio/ultimateportfolio-next/components/shared/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
@@ -599,128 +598,28 @@ var Header = /*#__PURE__*/function (_react$Component) {
       // React.Fragments can be used interchangeably with divs
       // divs are not always necessary
       return __jsx("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_7___default()(_styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navBar, _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.showNav),
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15,
-          columnNumber: 13
-        }
+        className: classnames__WEBPACK_IMPORTED_MODULE_7___default()(_styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navBar, _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.showNav)
       }, __jsx("div", {
-        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navLinks,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 17
-        }
+        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navLinks
       }, __jsx("div", {
-        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.Logo,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 21
-        }
+        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.Logo
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 40
-        }
-      }))), __jsx("div", {
-        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navItems,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 21
-        }
+        href: "/"
+      }, __jsx("a", null))), __jsx("div", {
+        className: _styles_header_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.navItems
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/about",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 45
-        }
-      }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/projects",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 48
-        }
-      }, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/fitness",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 47
-        }
-      }, "Fitness")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/travel",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 46
-        }
-      }, "Travel")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/blogs",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 25
-        }
-      }, __jsx("a", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 45
-        }
-      }, "Blogs")))));
+        href: "/about"
+      }, __jsx("a", null, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/projects"
+      }, __jsx("a", null, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/fitness"
+      }, __jsx("a", null, "Fitness")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/travel"
+      }, __jsx("a", null, "Travel")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/blogs"
+      }, __jsx("a", null, "Blogs")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/test"
+      }, __jsx("a", null, "Test")))));
     }
   }]);
 
@@ -17724,7 +17623,7 @@ module.exports = JSON.parse("{\"destination\":\"The Historical City of Malacca\"
 
 /***/ }),
 
-/***/ 2:
+/***/ 27:
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftravel%2Fmelaka&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Ftravel%2Fmelaka.js ***!
   \**********************************************************************************************************************************************************************************************************************/
@@ -17747,5 +17646,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[27,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=melaka.js.map

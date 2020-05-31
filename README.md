@@ -379,6 +379,8 @@ https://stackoverflow.com/questions/52214749/make-scroll-to-top-button-with-anim
 
 ## Got the document and viewport height as state
 
+https://stackoverflow.com/questions/43579186/get-height-of-document-in-react
+
 ```javascript
   componentDidMount() {
     // console.log(window.document.body.offsetHeight);
