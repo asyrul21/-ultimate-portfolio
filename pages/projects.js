@@ -65,10 +65,11 @@ class Projects extends React.Component {
                     />
                 </Head>
                 <section>
-                    <div className={cx('fallback', projectsStyles.projectsfallback)}>
-                        <div className={cx('hero', projectsStyles.projectsHero)}></div>
-                    </div>
-
+                    <Fade>
+                        <div className={cx('fallback', projectsStyles.projectsfallback)}>
+                            <div className={cx('hero', projectsStyles.projectsHero)}></div>
+                        </div>
+                    </Fade>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.projects} />

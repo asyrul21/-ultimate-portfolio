@@ -79,9 +79,9 @@
                 "GraphQL"
             ],
             "images": [
-                "/static/images/projects/myipcs/myipcs4.png",
-                "/static/images/projects/myipcs/myipcs2.png",
-                "/static/images/projects/myipcs/myipcs1.png"
+                "/static/images/projects/myipcs/myipcs4.jpeg",
+                "/static/images/projects/myipcs/myipcs2.jpeg",
+                "/static/images/projects/myipcs/myipcs1.jpeg"
             ]
         },
         "webcrawl": {
@@ -99,7 +99,7 @@
             "images": [
                 "/static/images/projects/webcrawl/webcrawl1.png",
                 "/static/images/projects/webcrawl/webcrawl2.png",
-                "/static/images/projects/webcrawl/webcrawl3.png"
+                "/static/images/projects/webcrawl/webcrawl3.jpeg"
             ]
         }
     },
@@ -120,7 +120,7 @@
         "chatbot": {
             "title": "A Chatbot to Facilitate Data Analysis",
             "time": "TBC 2020",
-            "intro": "This is my MSc Project, in which I will be building a chatbot designed to facilitate Big Data preparation by helping users to choose the appropriate pipeline functions based on a set of predefined questions and answers. The chatbot will be integrated with a GUI-powered Data Analysis workflow tool to give the answers that users expect. This project is currently ongoing, hence the page will be updated once everything is complete.",
+            "intro": "This is my MSc Project, in which I will be building a chatbot designed to facilitate Big Data preparation by helping users to choose the appropriate pipeline functions based on a set of predefined questions and answers. The chatbot is designed to facilitate Big Data preparation using a combination of rule-based text matching, deep learning and multi-stack software development deployed using Docker Compose. The project applies the Extreme Programming (XP) Agile methodology, involving an extensive amount of programming in Python, Tensorflow, Flask, ExpressJS and Angular. This project is currently ongoing, hence the page will be updated once everything is complete.",
             "main": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
             "technology": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
             "results": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the"

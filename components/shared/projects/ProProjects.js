@@ -3,9 +3,12 @@ import react from 'react'
 //import style
 import proprojectStyles from './proprojects.module.scss'
 
+//React Reveal Animation
+import Fade from 'react-reveal/Fade';
+
 const ProProjects = (props) => {
     const project = props.data
-    // console.log(project.technology)
+    let delay = 0
     return (
         <react.Fragment>
             <div className={proprojectStyles.projectHeader}>
@@ -17,15 +20,19 @@ const ProProjects = (props) => {
 
             <div className={proprojectStyles.photosContainer}>
                 {project.images.map((image, idx) => {
+                    if (idx !== 0)
+                        delay += 200
                     return (
-                        <div key={idx} className={proprojectStyles.image} style={{
-                            backgroundImage: 'url(' + image + ')',
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                        }}>
-                            {/* <img src={image} /> */}
-                        </div>
+                        <Fade bottom distance='20px' delay={delay}>
+                            <div key={idx} className={proprojectStyles.image} style={{
+                                backgroundImage: 'url(' + image + ')',
+                                backgroundPosition: 'center',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat'
+                            }}>
+                                {/* <img src={image} /> */}
+                            </div>
+                        </Fade>
                     )
                 })}
             </div>

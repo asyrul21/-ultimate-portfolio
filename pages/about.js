@@ -44,10 +44,11 @@ class About extends react.Component {
                     />
                 </Head>
                 <section>
-                    <div className={cx('fallback', aboutStyles.herofallback)}>
-                        <div className={cx('hero', aboutStyles.aboutHero)}></div>
-                    </div>
-
+                    <Fade>
+                        <div className={cx('fallback', aboutStyles.herofallback)}>
+                            <div className={cx('hero', aboutStyles.aboutHero)}></div>
+                        </div>
+                    </Fade>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.about_top} />

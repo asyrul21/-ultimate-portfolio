@@ -44,8 +44,9 @@ class Fitness extends react.Component {
         return (
             <ContentLayout>
                 <section>
-                    <div className={cx('hero', fitnessStyles.fitnessHero)}></div>
-
+                    <Fade>
+                        <div className={cx('hero', fitnessStyles.fitnessHero)}></div>
+                    </Fade>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.fitness} />
