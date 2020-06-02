@@ -16,7 +16,7 @@ class InnerTabs extends react.Component {
                                 key={data.key}
                                 onClick={() => this.props.onChange(data.key)}
                             >
-                                <span>{data.name}</span>
+                                <span>{data.title}</span>
                             </div>
                         </div>
                     )

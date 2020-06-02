@@ -3,47 +3,47 @@
         "Academic": [
             {
                 "key": "rpi",
-                "name": "Raspberry Pi CNC"
+                "title": "Raspberry Pi CNC"
             },
             {
                 "key": "chatbot",
-                "name": "Chatbot Data Analysis"
+                "title": "Chatbot Data Analysis"
             }
         ],
         "Professional": [
             {
                 "key": "esri",
-                "name": "C# .NET ESRI"
+                "title": "C# .NET ESRI"
             },
             {
                 "key": "myipcs",
-                "name": "Big Data (Census)"
+                "title": "Big Data (Census)"
             },
             {
                 "key": "webcrawl",
-                "name": "Python Web Crawl"
+                "title": "Python Web Crawl"
             }
         ],
         "Personal": [
             {
                 "key": "wedding",
-                "name": "Wedding Planner"
+                "title": "Wedding Planner"
             },
             {
                 "key": "wifePort",
-                "name": "Wife's Portfolio"
+                "title": "Wife's Portfolio"
             },
             {
                 "key": "ultimatePort",
-                "name": "Ultimate Portfolio"
+                "title": "Ultimate Portfolio"
             },
             {
                 "key": "recipeBook",
-                "name": "Recipe Repository"
+                "title": "Recipe Repository"
             },
             {
                 "key": "funfactory",
-                "name": "Kindergarten Website"
+                "title": "Kindergarten Website"
             }
         ]
     },

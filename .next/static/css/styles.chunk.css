@@ -412,162 +412,183 @@ p {
 ._1pN9lnX0WepZ6he3_bpGeM:hover {
   opacity: 1;
 }
-._1qJqvjFdArUczCb9Hw-xG1 {
-  width: 100%;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 10px;
+._3eiLIFchnUJFuZmFsJa2VD {
+  margin-top: 45px;
 }
 
-._3cUM3i_ShnS59iohtQew57 {
-  width: 100%;
-  font-family: "DancingScript";
-  font-weight: "normal";
-  font-size: 18px;
-}
-
-.lV8OG2KRXm5Csh6a3S3pS {
-  width: 100%;
-  font-family: "DancingScript";
-  font-weight: bold;
-  font-size: 18px;
-  text-align: right;
-}
-
-.nTfcgQMaTNiKLER9c4L0z {
-  width: 100%;
-  margin-top: 20px;
-}
-._2Us9WewTmbvlOKZCqMMP4e {
-  border-top: black solid 1px;
-  border-bottom: black solid 1px;
+._1q11HMkqLjYQGpwXZQc3lj {
+  cursor: pointer;
   width: 100%;
   height: 50px;
-  margin-top: 90px;
+  border: grey 1px solid;
+  padding: 2px 20px;
+  margin-bottom: 10px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-._2Us9WewTmbvlOKZCqMMP4e a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 18px;
-  opacity: 1;
-}
-._2Us9WewTmbvlOKZCqMMP4e a:hover {
-  opacity: 0.5;
-  transition: opacity 0.2s;
-  cursor: pointer;
-}
-._2Us9WewTmbvlOKZCqMMP4e ._3he9mWRDgEgjRmSH-yuGUA {
-  text-decoration: underline;
+  border-radius: 5px;
+  transition: background ease 0.1s;
 }
 
-@media screen and (max-width: 500px) {
-  ._2Us9WewTmbvlOKZCqMMP4e {
-    margin-top: 50px;
-  }
-}
-@media screen and (max-width: 400px) {
-  ._2Us9WewTmbvlOKZCqMMP4e {
-    margin-top: 50px;
-  }
-}
-._50IlI1eFp3e4llkoaohfz {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-._50IlI1eFp3e4llkoaohfz span {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 45px;
-  color: #FFFFFF;
-  text-decoration: none;
-  opacity: 1;
+._1q11HMkqLjYQGpwXZQc3lj:hover {
+  background: #b1b1b1;
 }
 
-._3VDDR-h_YBxxpLez2HW4XT {
-  border: white 1px solid;
+._1GDe9pI81pHYTh79JVpV67 {
   margin: 0;
-  margin-right: 10px;
-  width: auto;
-  height: 100%;
-  padding: 5px;
+}
+
+.IFaGb6WvLK_ICIKl0fAWA {
+  cursor: pointer;
+  margin: 0;
+  margin-top: 45px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border: black 2px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.IFaGb6WvLK_ICIKl0fAWA:hover {
+  background: #78d4f0;
+}
+._2IPjBvKLklHNGOw9B57hZi {
+  background-image: url("/static/images/hero/about_top.webp");
+}
+
+._3yCkfVx8i1na_JF7SaumYS {
+  background-image: url("/static/images/hero/about_top.jp2");
+}
+
+._6CFWrb-v32RKCgSbNHdM4, ._2GuNJNL8TzVgIx1GcdjjPG, ._1vtSvnJFaK8-Hwf7E6SbWv, ._2FrCfZbFpxLmPUD17Db2Az,
+._2guBLTSEwhldHqNw03PBfz, ._3HIfzFE50m4V4Zr2JTfBWs {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+._6CFWrb-v32RKCgSbNHdM4 {
+  background-image: url("/static/images/hero/about_skill.webp");
+}
+
+._2GuNJNL8TzVgIx1GcdjjPG {
+  background-image: url("/static/images/hero/about_skill.jp2");
+}
+
+._1vtSvnJFaK8-Hwf7E6SbWv {
+  background-image: url("/static/images/hero/about_work.webp");
+}
+
+._2FrCfZbFpxLmPUD17Db2Az {
+  background-image: url("/static/images/hero/about_work.jp2");
+}
+
+._2guBLTSEwhldHqNw03PBfz {
+  background-image: url("/static/images/hero/about_education.webp");
+}
+
+._3HIfzFE50m4V4Zr2JTfBWs {
+  background-image: url("/static/images/hero/about_education.jp2");
+}
+
+._122z1L_Fn86hjjGH3l0tNq {
+  border: red 2px dotted;
+  height: 200px;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
-.Impeb-zv_aTrO4JRMYwAN {
-  border: black 1px solid;
+._3PM6D4V7MHYF0o8o1cb6DF {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
 }
 
-._30uZ8RAlNK3FnOa1AUsjop {
-  height: 45px;
-  background: #464646;
-  padding-left: 20px;
-  padding-right: 20px;
-  opacity: 0.95;
-}
+@media screen and (max-width: 770px) {
+  ._2IPjBvKLklHNGOw9B57hZi {
+    background-position: center;
+  }
 
-._30uZ8RAlNK3FnOa1AUsjop:hover {
-  opacity: 1;
-  transition: opacity 0.2s;
-  cursor: pointer;
+  ._6CFWrb-v32RKCgSbNHdM4, ._1vtSvnJFaK8-Hwf7E6SbWv, ._2guBLTSEwhldHqNw03PBfz {
+    background-attachment: scroll;
+  }
 }
-._1pX9g6j7erNsOO-h032l1- {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 40px;
-}
+@media screen and (max-width: 420px) {
+  ._2IPjBvKLklHNGOw9B57hZi {
+    background-image: url("/static/images/hero/about_top_mobile.png");
+    height: 400px;
+  }
 
-.JzDjN33rVGYQJlPG98FnB {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 30px;
-}
+  ._6CFWrb-v32RKCgSbNHdM4 {
+    background-image: url("/static/images/hero/about_skill_mobile.png");
+  }
 
-._2vNElQm3ixg4JSKkkkrIjv {
-  font-weight: 500;
-  font-size: 14px;
-}
+  ._1vtSvnJFaK8-Hwf7E6SbWv {
+    background-image: url("/static/images/hero/about_work_mobile.png");
+  }
 
-.Aik-M3HCLVIrlmuQRLz2N {
-  margin-bottom: 25px;
+  ._2guBLTSEwhldHqNw03PBfz {
+    background-image: url("/static/images/hero/about_education_mobile.png");
+  }
 }
-
-._3HYonkoVEQK7gCofoOIwN5 {
-  margin-bottom: 40px;
-}
-
-._1eaZthu8GWKClh8XC0O1zR {
-  width: 100%;
-  margin-top: 45px;
-  margin-bottom: 45px;
+._2EIGV6AQJ17ayfUinaAB_B {
+  margin-top: 35px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: center;
 }
 
-.QhwHN4AQ2F_1130v8HC6l {
-  opacity: 0.8;
+._ogJ1C0IcQdceun538v1s {
+  font-family: "Montserrat";
   font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
+  outline: none !important;
+  width: 100%;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 2px 15px;
 }
 
-.QhwHN4AQ2F_1130v8HC6l:hover {
+._ogJ1C0IcQdceun538v1s:focus {
+  border: solid #339EDA 2px;
+}
+
+::placeholder {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.rMKxOwET0WkngTMic4P0 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  opacity: 0.8;
+  background-color: darkgrey;
+}
+
+.rMKxOwET0WkngTMic4P0:hover {
   opacity: 1;
 }
-._2LSEde_5fV_Z1iEjd5O82B {
-  background-image: url("/static/images/hero/fitness.png");
+
+._29R0EhCkXf3Ax98MjD_1ts {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+._32zXTo8E4EQgQGev9mI5d4 {
+  margin-top: 10px;
+  color: red;
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/

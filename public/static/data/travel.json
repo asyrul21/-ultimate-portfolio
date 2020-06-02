@@ -3,32 +3,32 @@
         "slugs": [
             {
                 "key": "krabi",
-                "destination": "Krabi Island",
-                "country": "Thailand",
+                "title": "Krabi Island",
+                "sub": "Thailand",
                 "slugImage": "/static/images/travel/krabi/slug.jpg"
             },
             {
                 "key": "melaka",
-                "destination": "Malacca City",
-                "country": "Malaysia",
+                "title": "Malacca City",
+                "sub": "Malaysia",
                 "slugImage": "/static/images/travel/melaka/slug.jpg"
             },
             {
                 "key": "pd",
-                "destination": "Port Dickson",
-                "country": "Malaysia",
+                "title": "Port Dickson",
+                "sub": "Malaysia",
                 "slugImage": "/static/images/travel/pd/slug.jpg"
             },
             {
                 "key": "krabi",
-                "destination": "Krabi Island",
-                "country": "Thailand",
+                "title": "Krabi Island",
+                "sub": "Thailand",
                 "slugImage": "/static/images/travel/krabi/slug.jpg"
             },
             {
                 "key": "melaka",
-                "destination": "Malacca City",
-                "country": "Malaysia",
+                "title": "Malacca City",
+                "sub": "Malaysia",
                 "slugImage": "/static/images/travel/melaka/slug.jpg"
             }
         ]

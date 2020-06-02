@@ -19,16 +19,26 @@ import travelData from '../public/static/data/travel.json'
 
 class Travel extends react.Component {
     render() {
+        let data = travelData.travel.slugs;
         return (
             <TravelLayout>
                 <ContentContainer>
                     <Fade delay={200}>
                         <ContentHead data={contentHeadData.travel} />
                     </Fade>
+                    <div className={"seperator"}></div>
                     <Fade delay={200}>
-                        <BoxCategories data={travelData} />
+                        <BoxCategories page="travel" data={data} />
                     </Fade>
                 </ContentContainer>
+                <style jsx>{`
+                    .seperator {
+                        border-top: solid rgba(88,88,88,0.5) 1px;
+                        width: 100%;
+                        margin-top: 80px;
+                        margin-bottom: 30px;
+                    }
+                `}</style>
             </TravelLayout>
         )
     }

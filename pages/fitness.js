@@ -3,14 +3,13 @@ import Link from 'next/link';
 import cx from 'classnames'
 
 // import layouts
-import ContentLayout from '../components/layouts/ContentLayout'
 import ContentContainer from '../components/layouts/ContentContainer'
+import FitnessLayout from '../components/layouts/FitnessLayout'
 
 //import components
 import ContentHead from '../components/shared/ContentHead'
 import Tabs from '../components/shared/Tabs'
-import InnerTabs from '../components/shared/InnerTabs'
-import FitnessItem from '../components/shared/FitnessItem'
+import BoxCategories from '../components/shared/BoxCategories'
 
 //global styles can be found at ../styles/main.scss
 //import specific styling module
@@ -28,7 +27,6 @@ class Fitness extends react.Component {
         super()
         this.state = {
             activeTab: '',
-            activeItem: ''
         }
         this.handleChange = this.handleChange.bind(this)
     }
@@ -36,17 +34,13 @@ class Fitness extends react.Component {
     handleChange(active) {
         this.setState({
             activeTab: active,
-            activeItem: ''
         })
     }
 
     render() {
         return (
-            <ContentLayout>
+            <FitnessLayout>
                 <section>
-                    <Fade>
-                        <div className={cx('hero', fitnessStyles.fitnessHero)}></div>
-                    </Fade>
                     <ContentContainer>
                         <Fade delay={200}>
                             <ContentHead data={contentHeadData.fitness} />
@@ -63,32 +57,28 @@ class Fitness extends react.Component {
                         {this.state.activeTab === 'Achievements' &&
 
                             <Fade duration={500}>
-                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Achievements} />
+                                <BoxCategories page="fitness" data={fitnessData.slugs.Achievements} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Programs' &&
                             <Fade duration={500}>
-                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Programs} />
+                                <BoxCategories page="fitness" data={fitnessData.slugs.Programs} />
                             </Fade>
                         }
 
                         {this.state.activeTab === 'Diet' &&
                             <Fade duration={500}>
-                                <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Diet} />
-                            </Fade>
-                        }
-
-                        {this.state.activeItem !== '' &&
-                            <Fade duration={500}>
-                                <FitnessItem id={this.state.activeItem} />
+                                <BoxCategories page="fitness" data={fitnessData.slugs.Diet} />
                             </Fade>
                         }
                     </ContentContainer>
                 </section>
-            </ContentLayout>
+            </FitnessLayout>
         )
     }
 }
 
 export default Fitness;
+
+{/* <InnerTabs onChange={active => { this.setState({ activeItem: active }) }} active={this.state.activeItem} data={fitnessData.slugs.Diet} /> */ }
