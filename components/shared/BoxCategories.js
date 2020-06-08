@@ -16,7 +16,7 @@ const BoxCategories = (props) => {
                     if (idx !== 0)
                         delay += 200
                     return (
-                        <Fade delay={delay}>
+                        <Fade delay={delay} key={idx}>
                             <div key={idx} className={boxCategoryStyle.box} style={{
                                 backgroundImage: 'url(' + item.slugImage + ')',
                             }}>

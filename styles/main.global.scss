@@ -5,13 +5,13 @@ $Photosheight_tablet: 220px;
 
 // Global styles
 * {
-    margin: 0 auto;
     padding: 0;
     border : 0;
     box-sizing: border-box;
 }
 
 html, body {
+    margin: 0 auto;
     font-family: 'Montserrat';
     position: relative;
 }
@@ -50,7 +50,6 @@ p {
         // border: green solid 2px; 
         height: auto;
     }
-
 
     //content photo containers
     .row {
@@ -95,6 +94,10 @@ p {
             width: 160px;
             height: 200px;
             background-repeat: no-repeat;
+        }
+
+        .row {
+            flex-wrap: wrap;
         }
 
         .rowPhotoLandscape {
@@ -147,9 +150,9 @@ p {
             margin: 0px;
         }
 
-        .row {
-            flex-wrap: wrap;
-        }
+        // .row {
+        //     flex-wrap: wrap;
+        // }
 
         .rowPhotoPortrait {
             // border: green solid 2px;

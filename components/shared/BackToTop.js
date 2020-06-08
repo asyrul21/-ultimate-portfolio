@@ -18,6 +18,7 @@ const BackToTop = (props) => {
                     height: 40px;
                     width: 140px;
 
+                    margin: 0 auto;
                     margin-top: -50px;
                     margin-bottom: -50px;
                     border-radius: 5px;

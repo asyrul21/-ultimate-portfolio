@@ -133,6 +133,7 @@ class Login extends react.Component {
                             <Fade>
                                 <ContentsList data={this.props.content} />
                             </Fade>
+
                         }
                     </ContentContainer>
                 </section>

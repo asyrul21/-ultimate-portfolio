@@ -13,7 +13,7 @@ const ContentFragment = (props) => {
             }
             {props.link &&
                 <div className={contentFragmentStyles.linkContainer} >
-                    <a className={contentFragmentStyles.link} href={props.link} target="_blank">View</a>
+                    <a className={contentFragmentStyles.link} href={props.link} target="_blank">{props.linkText ? props.linkText : 'View'}</a>
                 </div>
             }
             {props.subtitle &&
