@@ -15,6 +15,7 @@ import SuggestPages from '../../components/shared/SuggestPages'
 
 //import data
 import data from '../../public/static/data/FitnessItems/hypertrophy'
+import disc from '../../public/static/data/FitnessItems/disclaimer'
 
 import Fade from 'react-reveal/Fade';
 
@@ -30,7 +31,7 @@ class Hypertrophy extends React.Component {
         return (
             <FitnessLayout>
                 <ContentContainer breadcrumbs={['Fitness', 'Hypertrophy']} >
-                    <Disclaimer text={data.disclaimer} />
+                    <Disclaimer text={disc.disclaimer} />
                     {/* Insert Fragments here */}
                     <ContentFragment title={headerData.title} text={headerData.text}>
                         {/* no photos */}
@@ -340,8 +341,8 @@ class Hypertrophy extends React.Component {
 
                     <SuggestPages moreOn="Fitness" links={[
                         {
-                            link: '/fitness/fatloss',
-                            text: 'Fat Loss Programs'
+                            link: '/fitness/strength',
+                            text: 'Strength Programs'
                         },
                         {
                             link: '/fitness/fatloss',

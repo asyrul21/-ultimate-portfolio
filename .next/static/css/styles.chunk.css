@@ -463,6 +463,9 @@ p {
   margin: 0;
   margin-bottom: 30px;
   min-height: 200px;
+  -webkit-box-shadow: -11px 10px 5px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -11px 10px 5px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: -11px 10px 5px -6px rgba(0, 0, 0, 0.5);
 }
 
 ._2q3h_GAp5wlvpoKETIoRCB {
@@ -486,7 +489,7 @@ p {
 
 ._2fSSJbgC70ugZeWdcvrHeX {
   background: #F3F3F3;
-  min-height: 400px;
+  min-height: 300px;
   margin-bottom: 10px;
   padding: 25px;
   font-weight: 500;
@@ -538,133 +541,6 @@ p {
 
 ._2pYabeOjpGZSC6qU5uPfC6:hover {
   opacity: 1;
-}
-._1qJqvjFdArUczCb9Hw-xG1 {
-  width: 100%;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-._3cUM3i_ShnS59iohtQew57 {
-  width: 100%;
-  font-family: "DancingScript";
-  font-weight: "normal";
-  font-size: 18px;
-}
-
-.lV8OG2KRXm5Csh6a3S3pS {
-  width: 100%;
-  font-family: "DancingScript";
-  font-weight: bold;
-  font-size: 18px;
-  text-align: right;
-}
-
-.nTfcgQMaTNiKLER9c4L0z {
-  width: 100%;
-  margin-top: 20px;
-}
-._2Us9WewTmbvlOKZCqMMP4e {
-  border-top: black solid 1px;
-  border-bottom: black solid 1px;
-  width: 100%;
-  height: 50px;
-  margin-top: 90px;
-  display: flex;
-  align-items: center;
-}
-._2Us9WewTmbvlOKZCqMMP4e a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 18px;
-  opacity: 1;
-}
-._2Us9WewTmbvlOKZCqMMP4e a:hover {
-  opacity: 0.5;
-  transition: opacity 0.2s;
-  cursor: pointer;
-}
-._2Us9WewTmbvlOKZCqMMP4e ._3he9mWRDgEgjRmSH-yuGUA {
-  text-decoration: underline;
-}
-
-._32BFM0z8kanz6RZgvgOKtr {
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 500px) {
-  ._2Us9WewTmbvlOKZCqMMP4e {
-    margin-top: 50px;
-  }
-}
-@media screen and (max-width: 400px) {
-  ._2Us9WewTmbvlOKZCqMMP4e {
-    margin-top: 50px;
-  }
-}
-._2pE3dNd640nyWL_Wmb1yEl {
-  margin-top: 0;
-  padding-top: 60px;
-  list-style: none;
-  width: 100%;
-  min-height: 300px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-._37ph8-Tnh8xGbcf70F2XoH {
-  height: 235px;
-  width: 235px;
-  margin: 10px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.AnkTDZEf21_IvCa5GKga {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: rgba(64, 64, 64, 0.8);
-  height: 100%;
-  width: 100%;
-  padding: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.15s ease-in;
-}
-
-a {
-  text-decoration: none;
-}
-
-._3iyrBEdyJZL4ocv_d9wqRt {
-  text-align: center;
-  text-decoration: none;
-  font-style: normal;
-  color: white;
-  opacity: inherit;
-  z-index: 1;
-}
-
-._37ph8-Tnh8xGbcf70F2XoH:hover .AnkTDZEf21_IvCa5GKga {
-  opacity: 1;
-}
-
-._1krM1_8xRlF7y1XmYWFszy {
-  font-size: 14px;
-  margin-top: 5px;
-}
-._2LSEde_5fV_Z1iEjd5O82B {
-  background-image: url("/static/images/hero/fitness.png");
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/

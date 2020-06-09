@@ -8,9 +8,12 @@ const WorkoutItem = (props) => {
                 <span>
                     {props.name}
                 </span>
-                <span>
-                    {props.sets}
-                </span>
+                {
+                    props.sets &&
+                    <span>
+                        {props.sets}
+                    </span>
+                }
             </div>
             <style jsx>{`
                 .itemContainer{

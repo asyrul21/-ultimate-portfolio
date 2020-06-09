@@ -25,9 +25,11 @@ const WorkoutContainer = (props) => {
                 </div>
             </>
             <>
-                <div className={workoutContainerStyles.notes}>
-                    <span style={{ fontWeight: '600' }}>NOTES:</span> {props.notes}
-                </div>
+                {props.notes &&
+                    <div className={workoutContainerStyles.notes}>
+                        <span style={{ fontWeight: '600' }}>NOTES:</span> {props.notes}
+                    </div>
+                }
             </>
         </div >
     )

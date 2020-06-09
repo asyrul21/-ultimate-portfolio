@@ -9,7 +9,6 @@ const BackToTop = (props) => {
             </div>
             <style jsx>{`
                 .backtotopButton {
-                    // border: blue solid 1px;
                     color: black;
                     text-align: center;
                     line-height: 45px;
@@ -19,13 +18,17 @@ const BackToTop = (props) => {
                     width: 140px;
 
                     margin: 0 auto;
-                    margin-top: -50px;
+                    margin-top: -30px;
                     margin-bottom: -50px;
                     border-radius: 5px;
 
                     opacity: 0.9;
 
-                    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
+                    // box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
+
+                    -webkit-box-shadow: -11px 10px 5px -6px rgba(0,0,0,0.5);
+                    -moz-box-shadow: -11px 10px 5px -6px rgba(0,0,0,0.5);
+                    box-shadow: -11px 10px 5px -6px rgba(0,0,0,0.5);
 
                     display:flex;
                     justify-content: center;
@@ -38,7 +41,6 @@ const BackToTop = (props) => {
 
                 .buttonIcon {
                     margin:0;
-                    // border: white solid 1px;
                     height: 100%;
                     width: 40px;
 
@@ -50,7 +52,6 @@ const BackToTop = (props) => {
 
                 .buttonText{
                     margin:0;
-                    // border: blue solid 1px;
                     height:100%;
                     width: 90px;
                     padding-right:5px;
