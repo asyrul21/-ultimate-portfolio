@@ -13,7 +13,7 @@ const BlogsLayout = (props) => {
             <style jsx>{`
                 .blogsHero {
                     background-image: url('/static/images/hero/blogs.png');
-                    height: 600px;
+                    //height: 600px;
                 }
             `}</style>
         </react.Fragment>

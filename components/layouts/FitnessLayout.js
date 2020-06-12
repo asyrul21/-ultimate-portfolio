@@ -16,7 +16,7 @@ const FitnessLayout = (props) => {
             <style jsx>{`
                 .fitnessHero {
                     background-image: url('/static/images/hero/fitness.png');
-                    height: 600px;
+                    //height: 600px;
                 }
             `}</style>
         </react.Fragment>

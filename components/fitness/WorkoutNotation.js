@@ -11,6 +11,7 @@ const WorkoutNotation = () => {
                     <li><span className="key">Rw/ : </span>Replacable with the workout next in the list</li>
                     <li><span className="key">SS w/ : </span>Superset with the workout next in the list</li>
                     <li><span className="key">TS w/ : </span>Tri-set with the workout(s) next in the list</li>
+                    <li><span className="key">12 : </span>Perform 1 set of 12 repetitions</li>
                     <li><span className="key">4x12 : </span>Perform 4 sets of 12 repetitions</li>
                     <li><span className="key">4x10-12 : </span>Perform 4 sets of 10 to 12 repetitions</li>
                     <li><span className="key">3-4x10-12 : </span>Perform 3 to 4 sets of 10 to 12 repetitions</li>

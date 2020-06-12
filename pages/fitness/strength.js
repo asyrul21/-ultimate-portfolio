@@ -258,6 +258,9 @@ class Strength extends React.Component {
                             </Fade>
                         </div>
                     </ContentFragment>
+                    <ContentFragment title="Closure" text={data.closure}>
+                        {/* no photos */}
+                    </ContentFragment>
 
                     <SuggestPages moreOn="Fitness" links={[
                         {
