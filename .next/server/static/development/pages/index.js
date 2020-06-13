@@ -534,12 +534,16 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/about"
     }, __jsx("a", null, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/projects"
+    }, __jsx("a", null, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/fitness"
     }, __jsx("a", null, "Fitness")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/travel"
     }, __jsx("a", null, "Travel")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "/blogs"
-    }, __jsx("a", null, "Blogs")))));
+    }, __jsx("a", null, "Blogs")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/blogs"
+    }, __jsx("a", null, "Contact")))));
   }
 
 }

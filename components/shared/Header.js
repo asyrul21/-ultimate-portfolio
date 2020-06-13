@@ -20,10 +20,11 @@ class Header extends react.Component {
 
                     <div className={headerStyles.navItems}>
                         <Link href="/about"><a>About</a></Link>
-                        {/* <Link href="/projects"><a>Projects</a></Link> */}
+                        <Link href="/projects"><a>Projects</a></Link>
                         <Link href="/fitness"><a>Fitness</a></Link>
                         <Link href="/travel"><a>Travel</a></Link>
                         <Link href="/blogs"><a>Blogs</a></Link>
+                        <Link href="/blogs"><a>Contact</a></Link>
                     </div>
                     {/* 
                     <Link href="/blogs"><a>Blogs</a></Link>

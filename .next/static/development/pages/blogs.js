@@ -719,12 +719,16 @@ var Header = /*#__PURE__*/function (_react$Component) {
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/about"
       }, __jsx("a", null, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/projects"
+      }, __jsx("a", null, "Projects")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/fitness"
       }, __jsx("a", null, "Fitness")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/travel"
       }, __jsx("a", null, "Travel")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/blogs"
-      }, __jsx("a", null, "Blogs")))));
+      }, __jsx("a", null, "Blogs")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        href: "/blogs"
+      }, __jsx("a", null, "Contact")))));
     }
   }]);
 
@@ -36549,7 +36553,7 @@ module.exports = JSON.parse("{\"about_top\":{\"title\":\"Hi, nice to meet you!\"
 
 /***/ }),
 
-/***/ 25:
+/***/ 27:
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblogs&absolutePagePath=%2FUsers%2Fasyrulhafetzy%2FDocuments%2FCSDevelopment%2FWeb%2FmyUltimatePortfolio%2Fultimateportfolio-next%2Fpages%2Fblogs.js ***!
   \**************************************************************************************************************************************************************************************************/
@@ -36572,5 +36576,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[25,"static/runtime/webpack.js","styles"]]]);
+},[[27,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=blogs.js.map
