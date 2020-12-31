@@ -1,52 +1,52 @@
 {
-    "slugs": {
-        "Achievements": [
-            {
-                "key": "transformation",
-                "title": "Transformation",
-                "sub": "My physical transformation",
-                "slugImage": "/static/images/fitness/achievements/transformation/slug.jpg"
-            },
-            {
-                "key": "races",
-                "title": "Race Events",
-                "sub": "Participation in various long distance run",
-                "slugImage": "/static/images/fitness/achievements/races/slug.jpg"
-            }
-        ],
-        "Programs": [
-            {
-                "key": "hypertrophy",
-                "title": "Hypertrophy",
-                "sub": "Increase muscle mass programs",
-                "slugImage": "/static/images/fitness/programs/hypertrophy/slug.jpg"
-            },
-            {
-                "key": "strength",
-                "title": "Strength",
-                "sub": "Increase strength programs",
-                "slugImage": "/static/images/fitness/programs/strength/slug.jpg"
-            },
-            {
-                "key": "fatloss",
-                "title": "Fat Loss",
-                "sub": "Ideas of fat-torching workouts",
-                "slugImage": "/static/images/fitness/programs/fatloss/slug.jpg"
-            }
-        ],
-        "Diet": [
-            {
-                "key": "generalDiet",
-                "title": "General",
-                "sub": "Simple idea on how to eat well",
-                "slugImage": "/static/images/fitness/diet/general/slug.jpg"
-            },
-            {
-                "key": "iifym",
-                "title": "IIFYM",
-                "sub": "If It Fits Your Macros.",
-                "slugImage": "/static/images/fitness/diet/iifym/slug.jpg"
-            }
-        ]
-    }
+  "slugs": {
+    "Achievements": [
+      {
+        "key": "transformation",
+        "title": "Transformation",
+        "sub": "My physical transformation",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      },
+      {
+        "key": "races",
+        "title": "Race Events",
+        "sub": "Participation in various long distance run",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      }
+    ],
+    "Programs": [
+      {
+        "key": "hypertrophy",
+        "title": "Hypertrophy",
+        "sub": "Increase muscle mass programs",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      },
+      {
+        "key": "strength",
+        "title": "Strength",
+        "sub": "Increase strength programs",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      },
+      {
+        "key": "fatloss",
+        "title": "Fat Loss",
+        "sub": "Ideas of fat-torching workouts",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      }
+    ],
+    "Diet": [
+      {
+        "key": "generalDiet",
+        "title": "General",
+        "sub": "Simple idea on how to eat well",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      },
+      {
+        "key": "iifym",
+        "title": "IIFYM",
+        "sub": "If It Fits Your Macros.",
+        "slugImage": "/static/images/fitness/slug.jpg"
+      }
+    ]
+  }
 }
