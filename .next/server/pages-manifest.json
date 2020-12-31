@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/fitness": "pages/fitness.js",
-  "/about": "pages/about.js",
+  "/": "pages/index.js",
   "/projects": "pages/projects.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/fitness/transformation": "pages/fitness/transformation.js"
+  "/about": "pages/about.js",
+  "/fitness/transformation": "pages/fitness/transformation.js",
+  "/fitness": "pages/fitness.js"
 }
