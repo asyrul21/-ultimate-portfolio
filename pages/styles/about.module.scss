@@ -1,90 +1,95 @@
 .aboutHero {
-    background-image: url('/static/images/hero/about_top.webp');
+  background-image: url("/static/images/hero/about_top.webp");
 }
 
 .herofallback {
-    background-image: url('/static/images/hero/about_top.jp2');
+  background-image: url("/static/images/hero/about_top.jp2");
 }
 
-.skillHero, .skillfallback, .workHero, .workfallback,
-.educationHero, .educationfallback {
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.skillHero,
+.skillfallback,
+.workHero,
+.workfallback,
+.educationHero,
+.educationfallback {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    // margin-top: 90px;
-    height: 250px;
+  // margin-top: 90px;
+  height: 250px;
 }
 
 .skillHero {
-    background-image: url('/static/images/hero/about_skill.webp');
+  background-image: url("/static/images/hero/about_skill.webp");
 }
 
 .skillfallback {
-    background-image: url('/static/images/hero/about_skill.jp2');
+  background-image: url("/static/images/hero/about_skill.jp2");
 }
 
 .workHero {
-    background-image: url('/static/images/hero/about_work.webp');
+  background-image: url("/static/images/hero/about_work.webp");
 }
 
 .workfallback {
-    background-image: url('/static/images/hero/about_work.jp2');
+  background-image: url("/static/images/hero/about_work.jp2");
 }
 
 .educationHero {
-    background-image: url('/static/images/hero/about_education.webp');
+  background-image: url("/static/images/hero/about_education.webp");
 }
 
 .educationfallback {
-    background-image: url('/static/images/hero/about_education.jp2');
+  background-image: url("/static/images/hero/about_education.jp2");
 }
 
 .yasminBoxContainer {
-    border: red 2px dotted;  
-    height: 200px;
-    width: 100%;
+  border: red 2px dotted;
+  height: 200px;
+  width: 100%;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .box {
-    height: 50px;
-    width: 50px;
-    background-color: brown;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
 }
 
 @media screen and (max-width: 770px) {
-    .aboutHero{
-        background-position: center;
-    }
+  .aboutHero {
+    background-position: center;
+  }
 
-    .skillHero, .workHero, .educationHero {
-        background-attachment: scroll;
-    }
+  .skillHero,
+  .workHero,
+  .educationHero {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    .aboutHero {
-        background-image: url('/static/images/hero/about_top_mobile.png');
-        // background-position-x: -150px;
-        height: 400px;
-    }
+  .aboutHero {
+    background-image: url("/static/images/hero/about_top_mobile.png");
+    // background-position-x: -150px;
+    height: 400px;
+  }
 
-    .skillHero {
-        background-image: url('/static/images/hero/about_skill_mobile.png');
-        
-    }
-    
-    .workHero {
-        background-image: url('/static/images/hero/about_work_mobile.png');
-    }
-    
-    .educationHero {
-        background-image: url('/static/images/hero/about_education_mobile.png');
-    }
+  .skillHero {
+    background-image: url("/static/images/hero/about_skill_mobile.png");
+  }
+
+  .workHero {
+    background-image: url("/static/images/hero/about_work_mobile.png");
+  }
+
+  .educationHero {
+    background-image: url("/static/images/hero/about_education_mobile.png");
+  }
 }
